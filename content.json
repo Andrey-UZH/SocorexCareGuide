@@ -1,0 +1,2359 @@
+{
+ "meta": {
+  "title": {
+   "en": "Pipette Care Guide",
+   "de": "Pipetten-Pflegeguide",
+   "fr": "Guide d’entretien pipette"
+  },
+  "instrument": {
+   "en": "Acura® manual 825 · 100–1000 µL",
+   "de": "Acura® manual 825 · 100–1000 µL",
+   "fr": "Acura® manual 825 · 100–1000 µL"
+  },
+  "subtitle": {
+   "en": "Tell us what you notice. We'll show you what to do, and which part of the manual covers it.",
+   "de": "Sagen Sie uns, was Ihnen auffällt. Wir zeigen Ihnen, was zu tun ist und welcher Teil der Anleitung dazu passt.",
+   "fr": "Dites-nous ce que vous remarquez. Nous vous montrons quoi faire et quelle partie du mode d’emploi s’applique."
+  },
+  "disclaimer": {
+   "en": "**DEMO.** Based on the Acura 815/825/835/855 operating instructions. Not reviewed by Socorex. Excerpts marked “From the operating instructions” are the official wording; all other German and French text is a draft translation. Always follow the official instructions.",
+   "de": "**DEMO.** Basiert auf der Betriebsanleitung Acura 815/825/835/855. Nicht von Socorex geprüft. Auszüge mit „Aus der Betriebsanleitung“ sind der offizielle Wortlaut; alle übrigen deutschen und französischen Texte sind Übersetzungsentwürfe. Massgebend ist immer die offizielle Anleitung.",
+   "fr": "**DÉMO.** Basée sur le mode d’emploi Acura 815/825/835/855. Non validée par Socorex. Les extraits « Extrait du mode d’emploi » reprennent le texte officiel ; les autres textes allemands et français sont des traductions provisoires. Le mode d’emploi officiel fait foi."
+  },
+  "version": "demo-0.2 (Acura 825)",
+  "channelUrl": "https://www.youtube.com/@SocorexSwiss/videos",
+  "languages": [
+   "en",
+   "de",
+   "fr"
+  ],
+  "start": "home"
+ },
+ "ui": {
+  "back": {
+   "en": "Back",
+   "de": "Zurück",
+   "fr": "Retour"
+  },
+  "startOver": {
+   "en": "Start over",
+   "de": "Neu starten",
+   "fr": "Recommencer"
+  },
+  "search": {
+   "en": "Or type a keyword…",
+   "de": "Oder Stichwort eingeben…",
+   "fr": "Ou saisissez un mot-clé…"
+  },
+  "noMatch": {
+   "en": "No match. Try another word.",
+   "de": "Keine Treffer. Versuchen Sie ein anderes Wort.",
+   "fr": "Aucun résultat. Essayez un autre mot."
+  },
+  "beforeYouStart": {
+   "en": "Before you start",
+   "de": "Vorbereitung",
+   "fr": "Avant de commencer"
+  },
+  "fromManual": {
+   "en": "From the operating instructions",
+   "de": "Aus der Betriebsanleitung",
+   "fr": "Extrait du mode d’emploi"
+  },
+  "openManual": {
+   "en": "Manual & resources on socorex.com ↗",
+   "de": "Anleitung & Ressourcen auf socorex.com ↗",
+   "fr": "Mode d’emploi et ressources sur socorex.com ↗"
+  },
+  "builtToRepair": {
+   "en": "Built to be repaired",
+   "de": "Gebaut, um repariert zu werden",
+   "fr": "Conçue pour être réparée"
+  },
+  "tapDots": {
+   "en": "Tap a dot to see what it is.",
+   "de": "Punkt antippen, um das Teil zu sehen.",
+   "fr": "Touchez un point pour voir de quoi il s’agit."
+  },
+  "videoMissing": {
+   "en": "Add a YouTube video ID in content.json",
+   "de": "YouTube-Video-ID in content.json eintragen",
+   "fr": "Ajoutez un identifiant vidéo YouTube dans content.json"
+  },
+  "browseChannel": {
+   "en": "Browse the Socorex channel ↗",
+   "de": "Socorex-Kanal ansehen ↗",
+   "fr": "Voir la chaîne Socorex ↗"
+  },
+  "watchYouTube": {
+   "en": "Watch on YouTube ↗",
+   "de": "Auf YouTube ansehen ↗",
+   "fr": "Voir sur YouTube ↗"
+  },
+  "markDone": {
+   "en": "Mark step done",
+   "de": "Schritt als erledigt markieren",
+   "fr": "Marquer l’étape comme faite"
+  },
+  "question": {
+   "en": "Question",
+   "de": "Frage",
+   "fr": "Question"
+  },
+  "unofficial": {
+   "en": "Unofficial hackathon prototype, not affiliated with or approved by Socorex.",
+   "de": "Inoffizieller Hackathon-Prototyp, nicht mit Socorex verbunden oder von Socorex freigegeben.",
+   "fr": "Prototype non officiel de hackathon, sans lien avec Socorex ni approuvé par Socorex."
+  },
+  "contentVersion": {
+   "en": "Content version",
+   "de": "Inhaltsversion",
+   "fr": "Version du contenu"
+  },
+  "showNotes": {
+   "en": "Show design notes (prototype)",
+   "de": "Designnotizen anzeigen (Prototyp)",
+   "fr": "Afficher les notes de conception (prototype)"
+  },
+  "notFound": {
+   "en": "Page not found",
+   "de": "Seite nicht gefunden",
+   "fr": "Page introuvable"
+  }
+ },
+ "outcomes": {
+  "diy": {
+   "label": {
+    "en": "You can do this yourself",
+    "de": "Das können Sie selbst tun",
+    "fr": "Vous pouvez le faire vous-même"
+   },
+   "icon": "🔧",
+   "desc": {
+    "en": "Routine user maintenance, described in the manual",
+    "de": "Routinewartung durch den Anwender, in der Anleitung beschrieben",
+    "fr": "Entretien courant décrit dans le mode d’emploi"
+   }
+  },
+  "check": {
+   "label": {
+    "en": "Check first",
+    "de": "Zuerst prüfen",
+    "fr": "À contrôler d’abord"
+   },
+   "icon": "🔍",
+   "desc": {
+    "en": "A quick test tells you what to do next",
+    "de": "Ein kurzer Test zeigt den nächsten Schritt",
+    "fr": "Un test rapide indique la suite"
+   }
+  },
+  "service": {
+   "label": {
+    "en": "Replace part or send in",
+    "de": "Teil ersetzen oder einsenden",
+    "fr": "Remplacer la pièce ou retourner"
+   },
+   "icon": "📦",
+   "desc": {
+    "en": "Original spare part or repair via your dealer",
+    "de": "Originalersatzteil oder Reparatur über den Fachhandel",
+    "fr": "Pièce d’origine ou réparation via votre distributeur"
+   }
+  }
+ },
+ "snippets": {
+  "remove-module": {
+   "type": "steps",
+   "title": {
+    "en": "Take off the volumetric module (lower part)",
+    "de": "Volumeneinheit (Unterteil) abnehmen",
+    "fr": "Séparer le module volumétrique (partie basse)"
+   },
+   "items": [
+    {
+     "title": {
+      "en": "Release the ejector nut",
+      "de": "Abwurfmutter lösen",
+      "fr": "Libérer l’écrou éjecteur"
+     },
+     "text": {
+      "en": "Press the ejector button (2), turn the ejector nut (20) to the left and take it off.",
+      "de": "Abwurfknopf (2) drücken, Abwurfmutter (20) nach links drehen und entnehmen.",
+      "fr": "Presser le bouton éjecteur (2), faire pivoter l’écrou (20) vers la gauche et le retirer."
+     },
+     "image": {
+      "en": "images/fig6-disassembly.png",
+      "de": "images/fig6-disassembly.png",
+      "fr": "images/fig6-disassembly.png"
+     }
+    },
+    {
+     "title": {
+      "en": "Unscrew the barrel",
+      "de": "Zylinder abschrauben",
+      "fr": "Dévisser le cylindre"
+     },
+     "text": {
+      "en": "Unscrew the barrel (18).",
+      "de": "Zylinder (18) abschrauben.",
+      "fr": "Dévisser le cylindre (18)."
+     }
+    },
+    {
+     "title": {
+      "en": "Pull out the plunger",
+      "de": "Kolben herausziehen",
+      "fr": "Retirer le piston"
+     },
+     "text": {
+      "en": "Press the plunger button in fully, then unclip (pull) the plunger.",
+      "de": "Betätigungsknopf ganz herunterdrücken, dann Kolben herausziehen.",
+      "fr": "Appuyer à fond sur le bouton-poussoir, puis découpler (tirer) le piston."
+     }
+    }
+   ]
+  },
+  "clean-parts": {
+   "type": "steps",
+   "title": {
+    "en": "Clean the parts",
+    "de": "Teile reinigen",
+    "fr": "Nettoyer les pièces"
+   },
+   "items": [
+    {
+     "title": {
+      "en": "Clean with alcohol or a disinfectant",
+      "de": "Mit Alkohol oder Desinfektionsmittel reinigen",
+      "fr": "Nettoyer à l’alcool ou avec un désinfectant"
+     },
+     "text": {
+      "en": "The volumetric module can be cleaned with alcohol, or soaked in a suitable decontamination or disinfecting solution.",
+      "de": "Die Volumeneinheit kann mit Alkohol gereinigt oder in eine geeignete Dekontaminations- oder Desinfektionslösung getaucht werden.",
+      "fr": "Le module volumétrique peut être nettoyé à l’alcool ou plongé dans une solution décontaminante ou désinfectante."
+     },
+     "warning": {
+      "en": "No harsh chemicals such as acetone.",
+      "de": "Keine aggressiven Lösungsmittel wie Azeton.",
+      "fr": "Pas de solutions agressives comme l’acétone."
+     }
+    },
+    {
+     "title": {
+      "en": "Rinse and dry",
+      "de": "Spülen und trocknen",
+      "fr": "Rincer et sécher"
+     },
+     "text": {
+      "en": "Rinse and dry all parts before reassembling.",
+      "de": "Alle Teile vor dem Zusammensetzen spülen und trocknen.",
+      "fr": "Rincer et sécher toutes les pièces avant de les assembler."
+     }
+    },
+    {
+     "title": {
+      "en": "Stubborn residues: ultrasonic bath",
+      "de": "Hartnäckige Rückstände: Ultraschallbad",
+      "fr": "Saletés tenaces : bain à ultrasons"
+     },
+     "text": {
+      "en": "An ultrasonic bath can remove sticking residues. Afterwards, slightly grease the O-ring and/or plunger before reassembling.",
+      "de": "Hartnäckige Rückstände lassen sich im Ultraschallbad entfernen. Danach O-Ring und/oder Kolben vor dem Zusammensetzen leicht einfetten.",
+      "fr": "Le bain à ultrasons élimine les saletés tenaces. Ensuite, graisser légèrement le joint et/ou le piston avant le remontage."
+     }
+    }
+   ]
+  },
+  "reassemble": {
+   "type": "steps",
+   "title": {
+    "en": "Put it back together",
+    "de": "Wieder zusammensetzen",
+    "fr": "Remonter"
+   },
+   "items": [
+    {
+     "title": {
+      "en": "Grease lightly where needed",
+      "de": "Bei Bedarf leicht einfetten",
+      "fr": "Graisser légèrement si nécessaire"
+     },
+     "text": {
+      "en": "After an ultrasonic bath or a seal change, slightly grease the plunger, sleeve and O-ring.",
+      "de": "Nach Ultraschallbad oder Dichtungswechsel Kolben, Hülse und O-Ring leicht einfetten.",
+      "fr": "Après un bain à ultrasons ou un changement de joint, graisser légèrement le piston, la manchette et le joint."
+     }
+    },
+    {
+     "title": {
+      "en": "Reassemble the volumetric module",
+      "de": "Volumeneinheit zusammensetzen",
+      "fr": "Remonter le module volumétrique"
+     },
+     "text": {
+      "en": "Put the parts back together and refit the module (the reverse of taking it off).",
+      "de": "Teile wieder zusammensetzen und die Einheit anbringen (umgekehrte Reihenfolge des Abnehmens).",
+      "fr": "Remonter les pièces et fixer le module (dans l’ordre inverse du démontage)."
+     }
+    },
+    {
+     "title": {
+      "en": "Check tightness",
+      "de": "Dichtheit prüfen",
+      "fr": "Contrôler l’étanchéité"
+     },
+     "text": {
+      "en": "Aspirate liquid and check that no droplet forms at the tip. See “Check the tightness”.",
+      "de": "Flüssigkeit aufziehen und prüfen, dass sich an der Spitze kein Tropfen bildet. Siehe „Dichtheit prüfen“.",
+      "fr": "Aspirer du liquide et vérifier qu’aucune goutte ne se forme à l’embout. Voir « Contrôler l’étanchéité »."
+     }
+    }
+   ]
+  },
+  "reassemble-note": {
+   "type": "devnote",
+   "text": "The manual shows how to take the 815/825 module apart (Fig. 6) but gives no step-by-step reassembly for it (only for the 855). “Reverse order” is our inference. Likely user pain point and a strong candidate for the 3D animation. Confirm wording with Socorex."
+  },
+  "parts-diagram": [
+   {
+    "type": "image",
+    "src": "images/fig1-parts-825.png",
+    "narrow": true,
+    "alt": {
+     "en": "Acura 815/825 with labelled parts A to I",
+     "de": "Acura 815/825 mit beschrifteten Teilen A bis I",
+     "fr": "Acura 815/825 avec pièces repérées A à I"
+    },
+    "caption": {
+     "en": "Fig. 1 of the manual (Acura 815 / 825).",
+     "de": "Fig. 1 der Anleitung (Acura 815 / 825).",
+     "fr": "Fig. 1 du mode d’emploi (Acura 815 / 825)."
+    },
+    "hotspots": [
+     {
+      "n": "A",
+      "x": 43.4,
+      "y": 6.0,
+      "label": {
+       "en": "Smartie colour cap",
+       "de": "smartie Käppchen",
+       "fr": "Capuchon smartie"
+      },
+      "text": {
+       "en": "Turns freely on top of the button, so the volume can't change by accident.",
+       "de": "Dreht frei auf dem Druckknopf und verhindert unerwünschte Verstellungen.",
+       "fr": "Tourne librement et empêche toute modification accidentelle du volume."
+      }
+     },
+     {
+      "n": "B",
+      "x": 44.3,
+      "y": 11.2,
+      "label": {
+       "en": "Plunger button",
+       "de": "Druckknopf",
+       "fr": "Bouton-poussoir"
+      },
+      "text": {
+       "en": "Aspirates and dispenses. Turning it sets the volume.",
+       "de": "Aspirieren und Dosieren. Durch Drehen wird das Volumen eingestellt.",
+       "fr": "Aspire et distribue. En le tournant, on règle le volume."
+      }
+     },
+     {
+      "n": "C",
+      "x": 59.0,
+      "y": 14.8,
+      "label": {
+       "en": "Ejector push button",
+       "de": "Spitzenabwurf-Knopf",
+       "fr": "Bouton éjecteur"
+      },
+      "text": {
+       "en": "Press to eject the used tip.",
+       "de": "Drücken, um die gebrauchte Spitze abzuwerfen.",
+       "fr": "Presser pour éjecter l’embout usagé."
+      }
+     },
+     {
+      "n": "D",
+      "x": 63.5,
+      "y": 23.0,
+      "label": {
+       "en": "Finger rest",
+       "de": "Fingerstütze",
+       "fr": "Appuie-doigts"
+      },
+      "text": {
+       "en": "Sits on your forefinger.",
+       "de": "Liegt auf dem Zeigefinger auf.",
+       "fr": "Se pose sur l’index."
+      }
+     },
+     {
+      "n": "E",
+      "x": 37.4,
+      "y": 33.8,
+      "label": {
+       "en": "Display window",
+       "de": "Digital-Display",
+       "fr": "Fenêtre d’affichage"
+      },
+      "text": {
+       "en": "Shows the set volume. If an **E** appears next to the digits, the volume is outside the working range.",
+       "de": "Zeigt das eingestellte Volumen. Erscheint ein **E** neben den Zahlen, liegt das Volumen ausserhalb des Arbeitsbereichs.",
+       "fr": "Affiche le volume réglé. Si la lettre **E** apparaît, le volume est hors plage de travail."
+      }
+     },
+     {
+      "n": "F",
+      "x": 35.3,
+      "y": 41.4,
+      "label": {
+       "en": "swift-set calibration system",
+       "de": "swift-set Kalibrationssystem",
+       "fr": "Système de calibration swift-set"
+      },
+      "text": {
+       "en": "Lets lab staff recalibrate the pipette themselves.",
+       "de": "Ermöglicht dem Anwender die Neu-Justierung.",
+       "fr": "Permet à l’utilisateur de recalibrer la pipette."
+      }
+     },
+     {
+      "n": "H",
+      "x": 40.4,
+      "y": 78.4,
+      "label": {
+       "en": "Tip ejector (Justip™)",
+       "de": "Spitzenabwurf (Justip™)",
+       "fr": "Éjecteur (Justip™)"
+      },
+      "text": {
+       "en": "Height-adjustable so the tip fits and ejects properly.",
+       "de": "Höhenverstellbar für optimalen Sitz und Abwurf der Spitze.",
+       "fr": "Réglable en hauteur pour une bonne tenue et éjection de l’embout."
+      }
+     },
+     {
+      "n": "I",
+      "x": 40.4,
+      "y": 91.8,
+      "label": {
+       "en": "Nozzle",
+       "de": "Konus",
+       "fr": "Cône porte-embout"
+      },
+      "text": {
+       "en": "The cone the tip is pressed onto. A damaged nozzle can cause leaks.",
+       "de": "Der Konus, auf den die Spitze gedrückt wird. Ein beschädigter Konus kann Undichtigkeit verursachen.",
+       "fr": "Le cône sur lequel on enfonce l’embout. Un cône abîmé peut causer une fuite."
+      }
+     }
+    ]
+   },
+   {
+    "type": "devnote",
+    "text": "The manual's Fig. 1 labels A to I, but its text names only A–F, H and K. G and I are never explained. We assumed I = nozzle from the picture. Users have to guess part names; confirm with Socorex."
+   }
+  ],
+  "spare-diagram": {
+   "type": "image",
+   "src": "images/spare-parts-825.png",
+   "narrow": true,
+   "alt": {
+    "en": "Exploded spare parts drawing for the Acura 825",
+    "de": "Ersatzteil-Explosionszeichnung Acura 825",
+    "fr": "Vue éclatée des pièces détachées Acura 825"
+   },
+   "caption": {
+    "en": "Spare parts drawing from the manual: all models (left) and 815/825 “all other sizes” (right, incl. 100–1000 µL).",
+    "de": "Ersatzteilzeichnung aus der Anleitung: alle Modelle (links) und 815/825 „alle übrigen Grössen“ (rechts, inkl. 100–1000 µl).",
+    "fr": "Pièces détachées du mode d’emploi : tous modèles (gauche) et 815/825 « autres tailles » (droite, y c. 100–1000 µl)."
+   },
+   "hotspots": [
+    {
+     "n": "1",
+     "x": 10.5,
+     "y": 2.4,
+     "label": {
+      "en": "Ejector pad",
+      "de": "Abwurfpolster",
+      "fr": "Coussinet, bouton éjecteur"
+     }
+    },
+    {
+     "n": "2",
+     "x": 5.6,
+     "y": 5.4,
+     "label": {
+      "en": "Ejector button",
+      "de": "Abwurfknopf",
+      "fr": "Bouton éjecteur"
+     }
+    },
+    {
+     "n": "4",
+     "x": 13.9,
+     "y": 14.0,
+     "label": {
+      "en": "Smartie plunger cap",
+      "de": "Smartie Kappe",
+      "fr": "Capuchon smartie"
+     }
+    },
+    {
+     "n": "33",
+     "x": 23.6,
+     "y": 60.9,
+     "label": {
+      "en": "Calibration seal",
+      "de": "Kalibrationsschieber",
+      "fr": "Pastille de protection"
+     },
+     "text": {
+      "en": "Replace it with a new one after every recalibration.",
+      "de": "Nach jeder Neu-Kalibration durch eine neue ersetzen.",
+      "fr": "À remplacer par une neuve après chaque calibration."
+     }
+    },
+    {
+     "n": "13",
+     "x": 75.3,
+     "y": 29.1,
+     "label": {
+      "en": "Plunger",
+      "de": "Kolben",
+      "fr": "Piston"
+     }
+    },
+    {
+     "n": "14",
+     "x": 71.6,
+     "y": 36.6,
+     "label": {
+      "en": "Ring",
+      "de": "Ring",
+      "fr": "Bague"
+     },
+     "text": {
+      "en": "Replaceable. See “Replace the PTFE sleeve and O-ring”.",
+      "de": "Austauschbar. Siehe „PTFE-Hülse und O-Ring ersetzen“.",
+      "fr": "Remplaçable. Voir « Remplacer la manchette PTFE et le joint »."
+     }
+    },
+    {
+     "n": "15",
+     "x": 79.9,
+     "y": 40.5,
+     "label": {
+      "en": "Spring",
+      "de": "Feder",
+      "fr": "Ressort"
+     },
+     "text": {
+      "en": "Replaceable. See “Replace the PTFE sleeve and O-ring”.",
+      "de": "Austauschbar. Siehe „PTFE-Hülse und O-Ring ersetzen“.",
+      "fr": "Remplaçable. Voir « Remplacer la manchette PTFE et le joint »."
+     }
+    },
+    {
+     "n": "16",
+     "x": 71.6,
+     "y": 44.4,
+     "label": {
+      "en": "PTFE sleeve",
+      "de": "PTFE Hülse",
+      "fr": "Manchette PTFE"
+     },
+     "text": {
+      "en": "Replaceable. See “Replace the PTFE sleeve and O-ring”.",
+      "de": "Austauschbar. Siehe „PTFE-Hülse und O-Ring ersetzen“.",
+      "fr": "Remplaçable. Voir « Remplacer la manchette PTFE et le joint »."
+     }
+    },
+    {
+     "n": "17",
+     "x": 79.9,
+     "y": 46.0,
+     "label": {
+      "en": "O-ring (plunger)",
+      "de": "O-Ring (Kolben)",
+      "fr": "O-ring (piston)"
+     },
+     "text": {
+      "en": "Replaceable. See “Replace the PTFE sleeve and O-ring”.",
+      "de": "Austauschbar. Siehe „PTFE-Hülse und O-Ring ersetzen“.",
+      "fr": "Remplaçable. Voir « Remplacer la manchette PTFE et le joint »."
+     }
+    },
+    {
+     "n": "18",
+     "x": 76.8,
+     "y": 57.0,
+     "label": {
+      "en": "Barrel",
+      "de": "Zylinder",
+      "fr": "Cylindre"
+     }
+    },
+    {
+     "n": "19",
+     "x": 76.8,
+     "y": 78.2,
+     "label": {
+      "en": "Ejector",
+      "de": "Abwurf",
+      "fr": "Éjecteur"
+     }
+    },
+    {
+     "n": "20",
+     "x": 75.6,
+     "y": 83.2,
+     "label": {
+      "en": "Ejector nut",
+      "de": "Abwurfmutter",
+      "fr": "Écrou éjecteur"
+     }
+    },
+    {
+     "n": "11",
+     "x": 8.4,
+     "y": 78.2,
+     "label": {
+      "en": "Ejector rod",
+      "de": "Abwurfstange",
+      "fr": "Tige éjecteur"
+     }
+    }
+   ]
+  }
+ },
+ "nodes": {
+  "home": {
+   "title": {
+    "en": "What's going on with your pipette?",
+    "de": "Was stimmt mit Ihrer Pipette nicht?",
+    "fr": "Que se passe-t-il avec votre pipette ?"
+   },
+   "text": {
+    "en": "Pick the closest match. You don't need to know part names.",
+    "de": "Wählen Sie die passendste Beschreibung. Teilenamen müssen Sie nicht kennen.",
+    "fr": "Choisissez la description la plus proche. Inutile de connaître le nom des pièces."
+   },
+   "options": [
+    {
+     "group": {
+      "en": "Something is wrong",
+      "de": "Es gibt ein Problem",
+      "fr": "Il y a un problème"
+     },
+     "icon": "💧",
+     "label": {
+      "en": "It drips or leaks",
+      "de": "Sie tropft oder ist undicht",
+      "fr": "Elle goutte ou fuit"
+     },
+     "hint": {
+      "en": "A droplet forms at the end of the tip",
+      "de": "An der Spitze bildet sich ein Tropfen",
+      "fr": "Une goutte se forme à l’extrémité de l’embout"
+     },
+     "next": "leak-q1"
+    },
+    {
+     "group": {
+      "en": "Something is wrong",
+      "de": "Es gibt ein Problem",
+      "fr": "Il y a un problème"
+     },
+     "icon": "🔩",
+     "label": {
+      "en": "Tips don't fit or don't hold",
+      "de": "Spitzen sitzen nicht fest",
+      "fr": "Les embouts ne tiennent pas"
+     },
+     "hint": {
+      "en": "Loose, hard to push on, or ejector in the wrong position",
+      "de": "Locker, schwer aufzusetzen oder Abwurf falsch eingestellt",
+      "fr": "Lâches, difficiles à enfoncer ou éjecteur mal réglé"
+     },
+     "next": "tips-guide"
+    },
+    {
+     "group": {
+      "en": "Something is wrong",
+      "de": "Es gibt ein Problem",
+      "fr": "Il y a un problème"
+     },
+     "icon": "⚙️",
+     "label": {
+      "en": "Plunger sticks or drags",
+      "de": "Kolben klebt oder läuft unregelmässig",
+      "fr": "Le piston frotte ou se bloque"
+     },
+     "next": "plunger-guide"
+    },
+    {
+     "group": {
+      "en": "Something is wrong",
+      "de": "Es gibt ein Problem",
+      "fr": "Il y a un problème"
+     },
+     "icon": "🫗",
+     "label": {
+      "en": "No liquid is aspirated",
+      "de": "Es wird keine Flüssigkeit aufgesaugt",
+      "fr": "Aucun liquide n’est aspiré"
+     },
+     "next": "aspirate-q"
+    },
+    {
+     "group": {
+      "en": "Something is wrong",
+      "de": "Es gibt ein Problem",
+      "fr": "Il y a un problème"
+     },
+     "icon": "🎯",
+     "label": {
+      "en": "Results are off or inconsistent",
+      "de": "Ergebnisse stimmen nicht oder streuen",
+      "fr": "Résultats imprécis ou irréguliers"
+     },
+     "next": "perf-q"
+    },
+    {
+     "group": {
+      "en": "Routine care",
+      "de": "Routinepflege",
+      "fr": "Entretien courant"
+     },
+     "icon": "🧼",
+     "label": {
+      "en": "Clean the pipette",
+      "de": "Pipette reinigen",
+      "fr": "Nettoyer la pipette"
+     },
+     "hint": {
+      "en": "Especially if liquid got inside",
+      "de": "Besonders wenn Flüssigkeit eingedrungen ist",
+      "fr": "Surtout si du liquide est entré"
+     },
+     "next": "clean-guide"
+    },
+    {
+     "group": {
+      "en": "Routine care",
+      "de": "Routinepflege",
+      "fr": "Entretien courant"
+     },
+     "icon": "♨️",
+     "label": {
+      "en": "Autoclave (sterilise)",
+      "de": "Autoklavieren (sterilisieren)",
+      "fr": "Autoclaver (stériliser)"
+     },
+     "next": "autoclave-guide"
+    },
+    {
+     "group": {
+      "en": "Routine care",
+      "de": "Routinepflege",
+      "fr": "Entretien courant"
+     },
+     "icon": "📏",
+     "label": {
+      "en": "Yearly performance check",
+      "de": "Jährliche Leistungskontrolle",
+      "fr": "Contrôle annuel des performances"
+     },
+     "hint": {
+      "en": "Weigh water to check the volume",
+      "de": "Volumen durch Wägen von Wasser prüfen",
+      "fr": "Contrôler le volume en pesant de l’eau"
+     },
+     "next": "calib-check"
+    },
+    {
+     "group": {
+      "en": "Routine care",
+      "de": "Routinepflege",
+      "fr": "Entretien courant"
+     },
+     "icon": "🧩",
+     "label": {
+      "en": "Which parts can be replaced?",
+      "de": "Welche Teile lassen sich ersetzen?",
+      "fr": "Quelles pièces peut-on remplacer ?"
+     },
+     "next": "parts"
+    }
+   ],
+   "keywords": "leak drip undicht tropft fuite clean reinigen nettoyer volume accuracy genauigkeit stiff plunger kolben piston autoclave autoklav sterilise spare ersatz rechange calibration kalibrierung"
+  },
+  "leak-q1": {
+   "title": {
+    "en": "Do the tips fit the nozzle properly?",
+    "de": "Passen die Spitzen richtig auf den Konus?",
+    "fr": "Les embouts sont-ils bien adaptés au cône ?"
+   },
+   "text": {
+    "en": "A leak shows as a droplet forming and falling from the tip. The manual lists three things to check. Start with the easiest one: the tips.",
+    "de": "Eine Undichtigkeit zeigt sich als Tropfen, der sich an der Spitze bildet und fällt. Die Anleitung nennt drei Punkte zum Prüfen. Beginnen Sie mit dem einfachsten: den Spitzen.",
+    "fr": "Une fuite se manifeste par une goutte qui se forme puis tombe de l’embout. Le mode d’emploi cite trois points à contrôler. Commencez par le plus simple : les embouts."
+   },
+   "blocks": [
+    {
+     "type": "manual",
+     "page": {
+      "en": "p. 4",
+      "de": "S. 4",
+      "fr": "p. 4"
+     },
+     "title": {
+      "en": "Tightness control",
+      "de": "Kontrolle der Dichtheit",
+      "fr": "Contrôle d’étanchéité"
+     },
+     "text": {
+      "en": "A tight air chamber is paramount for the instrument to provide accurate and precise results. Leaks can be detected by observing a droplet forming and falling from the extremity of the tips […]. Special attention must be paid to the following points in case of leakage:\n• Matching of tips and nozzle\n• Damaged nozzle\n• Worn-out PTFE sleeve and/or O-ring",
+      "de": "Eine korrekte Funktion des Instruments ist nur gegeben, wenn das Luftpolster dicht schliesst. Undichte zeigt sich durch Tropfenbildung an der Spitze […]. Folgende Stellen können betroffen sein:\n• Anpassung Spitze / Konus\n• Beschädigter Konus\n• Abgenützte PTFE Hülse oder O-Ring",
+      "fr": "Pour que la pipette fonctionne correctement, la chambre contenant le coussin d’air doit être étanche. Un défaut d’étanchéité se manifeste par la formation d’une gouttelette qui se détache de l’extrémité de l’embout […]. Dans ces cas, porter une attention particulière aux points suivants:\n• Adéquation embout / cône\n• Cône porte-embout abîmé\n• Joint et/ou manchette PTFE abîmés"
+     },
+     "link": {
+      "en": "https://www.socorex.com/en/laboratory/manual-pipettes/acura-manual/825-manual-micropipette",
+      "fr": "https://www.socorex.com/fr/laboratoire/pipettes-automatiques/acura-manual/825-micropipette-automatique"
+     }
+    }
+   ],
+   "options": [
+    {
+     "icon": "❔",
+     "label": {
+      "en": "Not sure, or they are loose or another brand",
+      "de": "Nicht sicher, oder sie sitzen locker oder sind von anderer Marke",
+      "fr": "Pas sûr, ou ils sont lâches ou d’une autre marque"
+     },
+     "next": "tips-guide"
+    },
+    {
+     "icon": "✅",
+     "label": {
+      "en": "Yes, they fit firmly",
+      "de": "Ja, sie sitzen fest",
+      "fr": "Oui, ils tiennent bien"
+     },
+     "next": "leak-q2"
+    }
+   ],
+   "keywords": "leak drip undicht tropft fuite tightness"
+  },
+  "leak-q2": {
+   "title": {
+    "en": "Is the nozzle damaged?",
+    "de": "Ist der Konus beschädigt?",
+    "fr": "Le cône porte-embout est-il abîmé ?"
+   },
+   "text": {
+    "en": "Take the tip off and look closely at the nozzle, the cone the tip is pressed onto (marked I).",
+    "de": "Spitze abnehmen und den Konus genau ansehen, auf den die Spitze gedrückt wird (mit I markiert).",
+    "fr": "Retirez l’embout et examinez le cône sur lequel il se fixe (repère I)."
+   },
+   "blocks": [
+    {
+     "type": "snippet",
+     "id": "parts-diagram"
+    }
+   ],
+   "options": [
+    {
+     "icon": "⚠️",
+     "label": {
+      "en": "Yes, it looks damaged",
+      "de": "Ja, er sieht beschädigt aus",
+      "fr": "Oui, il semble abîmé"
+     },
+     "next": "leak-damaged"
+    },
+    {
+     "icon": "✅",
+     "label": {
+      "en": "No, it looks fine",
+      "de": "Nein, er sieht in Ordnung aus",
+      "fr": "Non, il semble en bon état"
+     },
+     "next": "leak-seals"
+    }
+   ]
+  },
+  "leak-damaged": {
+   "outcome": "service",
+   "title": {
+    "en": "A damaged nozzle must be replaced",
+    "de": "Ein beschädigter Konus muss ersetzt werden",
+    "fr": "Un cône abîmé doit être remplacé"
+   },
+   "text": {
+    "en": "Defective parts must be replaced, or the instrument returned to the dealer for repair. Use original spare parts only.",
+    "de": "Defekte Teile müssen ersetzt oder das Instrument zur Reparatur eingesendet werden. Nur Originalersatzteile verwenden.",
+    "fr": "Toute pièce défectueuse doit être remplacée ou l’instrument retourné pour réparation. N’utilisez que des pièces d’origine."
+   },
+   "blocks": [
+    {
+     "type": "repair",
+     "text": {
+      "en": "Socorex instruments can be disassembled. Damaged parts can be changed and the instrument newly calibrated if required, so there is no need to replace the whole pipette.",
+      "de": "Socorex-Instrumente lassen sich zerlegen. Beschädigte Teile können ausgetauscht und das Instrument bei Bedarf neu kalibriert werden – die ganze Pipette muss nicht ersetzt werden.",
+      "fr": "Les instruments Socorex peuvent être démontés. Les pièces endommagées peuvent être changées et l’instrument recalibré si nécessaire : inutile de remplacer toute la pipette."
+     },
+     "parts": [
+      {
+       "en": "Spare parts",
+       "de": "Ersatzteile",
+       "fr": "Pièces détachées"
+      },
+      {
+       "en": "Repair",
+       "de": "Reparatur",
+       "fr": "Réparation"
+      },
+      {
+       "en": "Recalibration",
+       "de": "Neu-Kalibration",
+       "fr": "Recalibration"
+      }
+     ]
+    },
+    {
+     "type": "devnote",
+     "text": "The manual does not say which spare-part number contains the nozzle on the 825 (100–1000 µL), or whether changing it is a user task or a dealer task. Users can't tell which path they are on."
+    }
+   ],
+   "options": [
+    {
+     "icon": "📦",
+     "label": {
+      "en": "How do I return it?",
+      "de": "Wie sende ich sie ein?",
+      "fr": "Comment la retourner ?"
+     },
+     "next": "dealer"
+    },
+    {
+     "icon": "🧩",
+     "label": {
+      "en": "Show the spare parts",
+      "de": "Ersatzteile anzeigen",
+      "fr": "Voir les pièces détachées"
+     },
+     "next": "parts"
+    },
+    {
+     "label": {
+      "en": "Back to start",
+      "de": "Zurück zum Start",
+      "fr": "Retour au début"
+     },
+     "next": "home",
+     "style": "ghost"
+    }
+   ]
+  },
+  "leak-seals": {
+   "outcome": "diy",
+   "title": {
+    "en": "Replace the PTFE sleeve and O-ring",
+    "de": "PTFE-Hülse und O-Ring ersetzen",
+    "fr": "Remplacer la manchette PTFE et le joint"
+   },
+   "text": {
+    "en": "If the tips and nozzle are fine, worn seals are the next suspect. The manual describes how to replace them on the 825.",
+    "de": "Wenn Spitzen und Konus in Ordnung sind, sind abgenutzte Dichtungen der nächste Verdacht. Die Anleitung beschreibt den Austausch bei der 825.",
+    "fr": "Si les embouts et le cône sont en ordre, les joints usés sont la cause suivante. Le mode d’emploi décrit leur remplacement pour la 825."
+   },
+   "blocks": [
+    {
+     "type": "checklist",
+     "items": [
+      {
+       "en": "Original PTFE sleeve (16) and O-ring (17)",
+       "de": "Original-PTFE-Hülse (16) und O-Ring (17)",
+       "fr": "Manchette PTFE (16) et joint (17) d’origine"
+      },
+      {
+       "en": "A pipette tip or another pointed tool",
+       "de": "Eine Pipettenspitze oder ein anderer spitzer Gegenstand",
+       "fr": "Un embout ou un autre objet pointu"
+      },
+      {
+       "en": "Grease for plunger, sleeve and O-ring",
+       "de": "Fett für Kolben, Hülse und O-Ring",
+       "fr": "Graisse pour piston, manchette et joint"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Order original spare parts from authorised dealers only.",
+      "de": "Originalersatzteile nur über autorisierte Händler bestellen.",
+      "fr": "Commandez des pièces d’origine uniquement auprès d’un distributeur agréé."
+     }
+    },
+    {
+     "type": "video",
+     "id": "w_HBn75TFpI",
+     "title": {
+      "en": "O-ring and sleeve replacement of an Acura® manual 825 pipette",
+      "de": "O-Ring und Hülse einer Acura® manual 825 ersetzen",
+      "fr": "Remplacement du joint et de la manchette d’une Acura® manual 825"
+     },
+     "caption": {
+      "en": "Official Socorex video.",
+      "de": "Offizielles Socorex-Video.",
+      "fr": "Vidéo officielle Socorex."
+     }
+    },
+    {
+     "type": "snippet",
+     "id": "remove-module"
+    },
+    {
+     "type": "steps",
+     "title": {
+      "en": "Replace the seals",
+      "de": "Dichtungen ersetzen",
+      "fr": "Remplacer les joints"
+     },
+     "items": [
+      {
+       "title": {
+        "en": "Open the barrel",
+        "de": "Zylinder öffnen",
+        "fr": "Ouvrir le cylindre"
+       },
+       "text": {
+        "en": "Take the barrel (18). Press both clips of the ring (14) with a pipette tip or a pointed tool.",
+        "de": "Zylinder (18) nehmen und mit einer Pipettenspitze oder einem spitzen Gegenstand auf beide Dorne des Rings (14) drücken.",
+        "fr": "Prendre le cylindre (18) et presser les deux clips de la bague (14) avec un embout ou un objet pointu."
+       }
+      },
+      {
+       "title": {
+        "en": "Take out the ring and spring",
+        "de": "Ring und Feder entfernen",
+        "fr": "Retirer la bague et le ressort"
+       },
+       "text": {
+        "en": "Remove the ring from the barrel, then the spring (15), to reach the O-ring / PTFE sleeve assembly.",
+        "de": "Ring vom Zylinder lösen, dann die Feder (15) herausziehen, um an O-Ring und PTFE-Hülse zu gelangen.",
+        "fr": "Dégager la bague du cylindre, puis retirer le ressort (15) pour accéder au joint et à la manchette."
+       }
+      },
+      {
+       "title": {
+        "en": "Change the worn parts",
+        "de": "Abgenutzte Teile austauschen",
+        "fr": "Changer les pièces usées"
+       },
+       "text": {
+        "en": "Change parts if needed. Clean the plunger (13) to remove any grease residue.",
+        "de": "Defekte Teile austauschen. Überschüssiges Fett vom Kolben (13) entfernen.",
+        "fr": "Changer les pièces défectueuses, essuyer le piston (13)."
+       }
+      },
+      {
+       "title": {
+        "en": "Sleeve first, then O-ring",
+        "de": "Erst die Hülse, dann den O-Ring",
+        "fr": "D’abord la manchette, puis le joint"
+       },
+       "text": {
+        "en": "Place the PTFE sleeve (16) on the plunger first, then the O-ring (17) on the sleeve. This prevents damage.",
+        "de": "PTFE-Hülse (16) zuerst auf den Kolben (13) setzen, danach den O-Ring (17) anbringen. So vermeiden Sie Beschädigungen.",
+        "fr": "Placer d’abord la manchette (16) sur le piston (13), puis le joint (17), pour ne pas l’endommager."
+       }
+      },
+      {
+       "title": {
+        "en": "Grease lightly and reassemble",
+        "de": "Leicht einfetten und zusammensetzen",
+        "fr": "Graisser légèrement et remonter"
+       },
+       "text": {
+        "en": "Slightly grease the plunger, sleeve and O-ring, then reassemble the volumetric module.",
+        "de": "Kolben, PTFE-Hülse und O-Ring leicht einfetten und die Volumeneinheit wieder zusammensetzen.",
+        "fr": "Graisser légèrement piston, manchette et joint, puis remonter le module volumétrique."
+       }
+      }
+     ]
+    },
+    {
+     "type": "snippet",
+     "id": "reassemble-note"
+    },
+    {
+     "type": "snippet",
+     "id": "spare-diagram"
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Not your model: Tightness parts are not available separately on 2, 10, 10Y and 20 µL models. In case of tightness problem, the whole barrel must be changed.",
+      "de": "Nicht Ihr Modell: Das O-Ring-Dichtungsmanchetten-Aggregat ist auf 2, 10, 10Y und 20 µl-Modellen nicht zugänglich. Bei mangelnder Dichte ist der komplette Zylinder auszuwechseln.",
+      "fr": "Pas votre modèle : La manchette n’est pas accessible sur les modèles de 2, 10, 10Y et 20 µl. En cas d’étanchéité déficiente, changer le cylindre complet."
+     }
+    }
+   ],
+   "options": [
+    {
+     "icon": "🔍",
+     "label": {
+      "en": "Check the tightness now",
+      "de": "Dichtheit jetzt prüfen",
+      "fr": "Contrôler l’étanchéité maintenant"
+     },
+     "next": "tight-test"
+    },
+    {
+     "icon": "📦",
+     "label": {
+      "en": "Still leaks after reassembly",
+      "de": "Undicht auch nach dem Zusammensetzen",
+      "fr": "Fuit encore après le remontage"
+     },
+     "next": "dealer"
+    },
+    {
+     "label": {
+      "en": "Back to start",
+      "de": "Zurück zum Start",
+      "fr": "Retour au début"
+     },
+     "next": "home",
+     "style": "ghost"
+    }
+   ],
+   "keywords": "ptfe o-ring sleeve seal dichtung hülse joint manchette leak"
+  },
+  "tight-test": {
+   "outcome": "check",
+   "title": {
+    "en": "Check the tightness",
+    "de": "Dichtheit prüfen",
+    "fr": "Contrôler l’étanchéité"
+   },
+   "text": {
+    "en": "A tight air chamber is what makes the pipette accurate. A leak shows as a droplet forming and falling from the tip.",
+    "de": "Ein dichtes Luftpolster ist die Voraussetzung für genaue Ergebnisse. Eine Undichtigkeit zeigt sich als Tropfen an der Spitze.",
+    "fr": "Une chambre à air étanche garantit la précision. Une fuite se voit à la goutte qui se forme et tombe de l’embout."
+   },
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "title": {
+        "en": "Fit a new tip firmly",
+        "de": "Neue Spitze fest aufsetzen",
+        "fr": "Fixer fermement un embout neuf"
+       },
+       "text": {
+        "en": "Place the instrument on the tip and press firmly.",
+        "de": "Instrument auf die Spitze aufsetzen und fest andrücken.",
+        "fr": "Placer l’instrument sur l’embout et presser fermement."
+       }
+      },
+      {
+       "title": {
+        "en": "Aspirate liquid",
+        "de": "Flüssigkeit aufziehen",
+        "fr": "Aspirer du liquide"
+       },
+       "text": {
+        "en": "Immerse the tip vertically (2–3 mm), wait 2 seconds and release the plunger button smoothly.",
+        "de": "Spitze senkrecht 2–3 mm eintauchen, 2 Sekunden warten und den Druckknopf sanft loslassen.",
+        "fr": "Immerger l’embout verticalement (2–3 mm), attendre 2 secondes et relâcher doucement le bouton."
+       }
+      },
+      {
+       "title": {
+        "en": "Hold it still and watch the tip",
+        "de": "Ruhig halten und die Spitze beobachten",
+        "fr": "Tenir immobile et observer l’embout"
+       },
+       "text": {
+        "en": "A droplet forming and falling from the tip means it leaks.",
+        "de": "Bildet sich ein Tropfen, der abfällt, ist die Pipette undicht.",
+        "fr": "Une goutte qui se forme et tombe indique une fuite."
+       }
+      }
+     ]
+    },
+    {
+     "type": "devnote",
+     "text": "The manual gives no hold time or acceptance criterion for this test. Ask Socorex for a standard (e.g. seconds to watch)."
+    }
+   ],
+   "options": [
+    {
+     "icon": "✅",
+     "label": {
+      "en": "No droplet. It is tight",
+      "de": "Kein Tropfen. Sie ist dicht",
+      "fr": "Aucune goutte. Elle est étanche"
+     },
+     "next": "calib-check"
+    },
+    {
+     "icon": "💧",
+     "label": {
+      "en": "A droplet forms",
+      "de": "Ein Tropfen bildet sich",
+      "fr": "Une goutte se forme"
+     },
+     "next": "leak-q1"
+    },
+    {
+     "label": {
+      "en": "Back to start",
+      "de": "Zurück zum Start",
+      "fr": "Retour au début"
+     },
+     "next": "home",
+     "style": "ghost"
+    }
+   ]
+  },
+  "tips-guide": {
+   "outcome": "diy",
+   "title": {
+    "en": "Tips don't fit or don't hold",
+    "de": "Spitzen sitzen nicht fest",
+    "fr": "Les embouts ne tiennent pas"
+   },
+   "text": {
+    "en": "The manual names two causes: unsuitable tips, or the ejector set to the wrong position.",
+    "de": "Die Anleitung nennt zwei Ursachen: unpassende Spitzen oder falsch eingestellter Spitzenabwurf.",
+    "fr": "Le mode d’emploi cite deux causes : des embouts inadaptés ou un éjecteur mal positionné."
+   },
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "title": {
+        "en": "Use original or compatible tips",
+        "de": "Originale oder kompatible Spitzen verwenden",
+        "fr": "Utiliser des embouts d’origine ou compatibles"
+       },
+       "text": {
+        "en": "Use Qualitix® tips from the manufacturer, or similar.",
+        "de": "Nur Qualitix®-Spitzen des Herstellers oder kompatible Spitzen verwenden.",
+        "fr": "Utiliser des embouts Qualitix® du fabricant ou équivalents."
+       }
+      },
+      {
+       "title": {
+        "en": "Press the tip on firmly",
+        "de": "Spitze fest andrücken",
+        "fr": "Enfoncer fermement l’embout"
+       },
+       "text": {
+        "en": "Place the instrument on the tip and press firmly to ensure a good seal.",
+        "de": "Instrument auf die Spitze aufsetzen und fest andrücken.",
+        "fr": "Placer l’instrument sur l’embout et presser fermement."
+       }
+      },
+      {
+       "title": {
+        "en": "Adjust the ejector height (Justip™)",
+        "de": "Höhe des Spitzenabwurfs einstellen (Justip™)",
+        "fr": "Régler la hauteur de l’éjecteur (Justip™)"
+       },
+       "text": {
+        "en": "Turn the ejector until there is about 0.5 mm between tip and ejector. Click stops hold the setting.",
+        "de": "Abwurf drehen, bis etwa 0,5 mm Abstand zwischen Spitze und Abwurf besteht. Klick-Stops halten die Einstellung.",
+        "fr": "Tourner l’éjecteur jusqu’à environ 0,5 mm entre l’embout et l’éjecteur. Un crantage maintient le réglage."
+       },
+       "image": "images/fig2-ejector.png"
+      }
+     ]
+    },
+    {
+     "type": "devnote",
+     "text": "EN calls the part the “ejector screw”, FR the “tube éjecteur”; only the FR text says the LO–HI arrows are on the back of the instrument. Users don't know where to turn. A close-up photo or animation would settle it."
+    },
+    {
+     "type": "manual",
+     "page": {
+      "en": "p. 2",
+      "de": "S. 2",
+      "fr": "p. 2"
+     },
+     "title": {
+      "en": "Tip selection and ejection",
+      "de": "Spitzenauswahl und Spitzenabwurf",
+      "fr": "Choix et éjection d’embouts"
+     },
+     "text": {
+      "en": "Use tips supplied by manufacturer, or similar. […] When using tip racks, place the instrument on tips, press firmly to ensure a good tightness. This is particularly important for multichannel models.\n\nThe patented Justip™ ejection system allows instant height adjustment (± 2 mm) of ejector for best fitting of tip used (optimal distance). Set correct position (~0.5 mm space between tip and ejector) by rotating ejector screw (< LO – HI >). Click stops prevent any unwanted change while pipetting.",
+      "de": "Verwenden Sie nur vom Hersteller angebotene oder kompatible Spitzen. […] Beim Gebrauch von Spitzenracks, Instrument auf Spitzen aufsetzen und fest andrücken. Dieses Vorgehen ist vor allem bei Mehrkanalmodellen wichtig, um ein Festsitzen aller Spitzen zu garantieren.\n\nDas patentierte Justip™ System erlaubt die sofortige Positionnierung der Schafthöhe (± 2 mm) für eine ideale Anpassung und den einwandfreien Abwurf der Spitzen. Die Distanz zwischen Spitze und Abwurfstange wird durch ein Drehen der Abwurfschraube (< LO – HI >) auf ~0.5 mm eingestellt. Eingebaute Klick-Stops verhindern unerwünschte Verstellungen.",
+      "fr": "Utiliser les embouts fournis par le fabricant ou équivalents. […] En utilisant un rack, placer l’instrument sur les embouts et presser fermement pour assurer la tenue. Ceci est particulièrement important pour une pipette multicanaux.\n\nL’éjecteur breveté Justip™ réglable en hauteur (+/- 2 mm) permet une tenue et éjection optimales de l’embout sur le cône de la pipette. Procéder au réglage idéal (~ 0.5 mm du bord de l’embout) par rotation du tube éjecteur selon les flèches <LO – HI> (bas-haut) figurant au dos de l’instrument. Un crantage empêche le dérèglement intempestif de l’éjecteur."
+     },
+     "link": {
+      "en": "https://www.socorex.com/en/laboratory/manual-pipettes/acura-manual/825-manual-micropipette",
+      "fr": "https://www.socorex.com/fr/laboratoire/pipettes-automatiques/acura-manual/825-micropipette-automatique"
+     }
+    }
+   ],
+   "options": [
+    {
+     "icon": "💧",
+     "label": {
+      "en": "Fits now, but it still leaks",
+      "de": "Passt jetzt, ist aber noch undicht",
+      "fr": "Tient bien, mais fuit encore"
+     },
+     "next": "leak-q2"
+    },
+    {
+     "label": {
+      "en": "Back to start",
+      "de": "Zurück zum Start",
+      "fr": "Retour au début"
+     },
+     "next": "home",
+     "style": "ghost"
+    }
+   ],
+   "keywords": "tip spitze embout eject abwurf éjecteur justip fit loose"
+  },
+  "plunger-guide": {
+   "outcome": "diy",
+   "title": {
+    "en": "Plunger sticks or drags",
+    "de": "Kolben klebt oder läuft unregelmässig",
+    "fr": "Le piston frotte ou se bloque"
+   },
+   "text": {
+    "en": "The manual's cause is a dirty plunger. Its remedy: take the module apart and clean it.",
+    "de": "Laut Anleitung ist ein verschmutzter Kolben die Ursache. Abhilfe: Einheit zerlegen und reinigen.",
+    "fr": "Selon le mode d’emploi, la cause est un piston sale. Remède : démonter et nettoyer."
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "warning",
+     "text": {
+      "en": "Do not use harsh chemicals (such as acetone) to clean instrument.",
+      "de": "Nicht mit aggressiven Lösungsmitteln (z.B. Azeton) reinigen.",
+      "fr": "Ne pas employer de solutions agressives (p. ex. acétone) pour le nettoyage."
+     }
+    },
+    {
+     "type": "snippet",
+     "id": "remove-module"
+    },
+    {
+     "type": "snippet",
+     "id": "clean-parts"
+    },
+    {
+     "type": "snippet",
+     "id": "reassemble"
+    },
+    {
+     "type": "snippet",
+     "id": "reassemble-note"
+    }
+   ],
+   "options": [
+    {
+     "icon": "📦",
+     "label": {
+      "en": "Still sticks",
+      "de": "Klemmt weiterhin",
+      "fr": "Frotte toujours"
+     },
+     "next": "dealer"
+    },
+    {
+     "label": {
+      "en": "Back to start",
+      "de": "Zurück zum Start",
+      "fr": "Retour au début"
+     },
+     "next": "home",
+     "style": "ghost"
+    }
+   ],
+   "keywords": "plunger piston kolben sticking klebt"
+  },
+  "aspirate-q": {
+   "title": {
+    "en": "Did you recently take the pipette apart?",
+    "de": "Haben Sie die Pipette kürzlich zerlegt?",
+    "fr": "Avez-vous récemment démonté la pipette ?"
+   },
+   "text": {
+    "en": "No liquid being drawn up has two causes in the manual: a blocked nozzle, or a module that was not assembled properly.",
+    "de": "Wird keine Flüssigkeit aufgesaugt, nennt die Anleitung zwei Ursachen: verstopfter Konus oder nicht korrekt zusammengesetzte Einheit.",
+    "fr": "Si aucun liquide n’est aspiré, le mode d’emploi cite deux causes : un cône bouché ou un module mal assemblé."
+   },
+   "options": [
+    {
+     "icon": "🔧",
+     "label": {
+      "en": "Yes, I just reassembled it",
+      "de": "Ja, ich habe sie gerade zusammengesetzt",
+      "fr": "Oui, je viens de la remonter"
+     },
+     "next": "reassemble-guide"
+    },
+    {
+     "icon": "🧼",
+     "label": {
+      "en": "No",
+      "de": "Nein",
+      "fr": "Non"
+     },
+     "hint": {
+      "en": "Dry residues may block the nozzle",
+      "de": "Eingetrocknete Rückstände können den Konus verstopfen",
+      "fr": "Des résidus secs peuvent boucher le cône"
+     },
+     "next": "clean-guide"
+    }
+   ]
+  },
+  "reassemble-guide": {
+   "outcome": "diy",
+   "title": {
+    "en": "Reassemble the module correctly",
+    "de": "Einheit korrekt zusammensetzen",
+    "fr": "Remonter correctement le module"
+   },
+   "text": {
+    "en": "A module that is not properly assembled can stop the pipette drawing liquid. Take it apart again and reassemble it carefully.",
+    "de": "Eine nicht korrekt zusammengesetzte Einheit kann das Aufsaugen verhindern. Nochmals zerlegen und sorgfältig zusammensetzen.",
+    "fr": "Un module mal assemblé peut empêcher l’aspiration. Démontez-le à nouveau et remontez-le avec soin."
+   },
+   "blocks": [
+    {
+     "type": "snippet",
+     "id": "remove-module"
+    },
+    {
+     "type": "snippet",
+     "id": "reassemble"
+    },
+    {
+     "type": "snippet",
+     "id": "reassemble-note"
+    }
+   ],
+   "options": [
+    {
+     "icon": "📦",
+     "label": {
+      "en": "Still no liquid",
+      "de": "Immer noch keine Flüssigkeit",
+      "fr": "Toujours aucun liquide"
+     },
+     "next": "dealer"
+    },
+    {
+     "label": {
+      "en": "Back to start",
+      "de": "Zurück zum Start",
+      "fr": "Retour au début"
+     },
+     "next": "home",
+     "style": "ghost"
+    }
+   ]
+  },
+  "perf-q": {
+   "title": {
+    "en": "What fits your situation?",
+    "de": "Was trifft auf Ihre Situation zu?",
+    "fr": "Qu’est-ce qui correspond à votre situation ?"
+   },
+   "text": {
+    "en": "The manual lists several causes of poor performance. Pick the one that sounds right.",
+    "de": "Die Anleitung nennt mehrere Ursachen für schlechte Leistung. Wählen Sie die passende.",
+    "fr": "Le mode d’emploi cite plusieurs causes. Choisissez la plus probable."
+   },
+   "options": [
+    {
+     "icon": "💧",
+     "label": {
+      "en": "A droplet forms at the tip",
+      "de": "An der Spitze bildet sich ein Tropfen",
+      "fr": "Une goutte se forme à l’embout"
+     },
+     "hint": {
+      "en": "Lack of tightness",
+      "de": "Mangel an Dichte",
+      "fr": "Manque d’étanchéité"
+     },
+     "next": "leak-q1"
+    },
+    {
+     "icon": "🔩",
+     "label": {
+      "en": "Tips are loose or not the original type",
+      "de": "Spitzen sitzen locker oder sind nicht original",
+      "fr": "Embouts lâches ou non d’origine"
+     },
+     "next": "tips-guide"
+    },
+    {
+     "icon": "🧪",
+     "label": {
+      "en": "I use viscous or volatile liquids, or unusual temperatures",
+      "de": "Ich arbeite mit viskosen, flüchtigen oder extrem temperierten Flüssigkeiten",
+      "fr": "J’utilise des liquides visqueux, volatils ou des températures particulières"
+     },
+     "hint": {
+      "en": "The manual says to recalibrate with the liquid you use",
+      "de": "Laut Anleitung mit der verwendeten Flüssigkeit neu kalibrieren",
+      "fr": "Le mode d’emploi conseille de calibrer avec le liquide utilisé"
+     },
+     "next": "calib-check"
+    },
+    {
+     "icon": "📏",
+     "label": {
+      "en": "It has been a year, or I replaced parts",
+      "de": "Es ist ein Jahr her, oder ich habe Teile ersetzt",
+      "fr": "Cela fait un an, ou j’ai remplacé des pièces"
+     },
+     "hint": {
+      "en": "The instrument may be out of calibration",
+      "de": "Das Instrument ist evtl. nicht mehr korrekt kalibriert",
+      "fr": "L’instrument est peut-être déréglé"
+     },
+     "next": "calib-check"
+    }
+   ]
+  },
+  "clean-guide": {
+   "outcome": "diy",
+   "title": {
+    "en": "Clean the pipette",
+    "de": "Pipette reinigen",
+    "fr": "Nettoyer la pipette"
+   },
+   "text": {
+    "en": "The lower part (volumetric module) can be cleaned. It matters most if liquid got inside.",
+    "de": "Das Unterteil (Volumeneinheit) kann gereinigt werden. Besonders wichtig ist das, wenn Flüssigkeit eingedrungen ist.",
+    "fr": "La partie basse (module volumétrique) peut être nettoyée. C’est surtout important si du liquide est entré."
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "warning",
+     "text": {
+      "en": "Do not use harsh chemicals (such as acetone) to clean instrument.",
+      "de": "Nicht mit aggressiven Lösungsmitteln (z.B. Azeton) reinigen.",
+      "fr": "Ne pas employer de solutions agressives (p. ex. acétone) pour le nettoyage."
+     }
+    },
+    {
+     "type": "checklist",
+     "items": [
+      {
+       "en": "Alcohol, or a suitable decontamination / disinfecting solution",
+       "de": "Alkohol oder eine geeignete Dekontaminations-/Desinfektionslösung",
+       "fr": "Alcool ou solution décontaminante / désinfectante adaptée"
+      },
+      {
+       "en": "Grease, if you use an ultrasonic bath or change seals",
+       "de": "Fett, falls Sie ein Ultraschallbad nutzen oder Dichtungen wechseln",
+       "fr": "Graisse, en cas de bain à ultrasons ou de changement de joint"
+      }
+     ]
+    },
+    {
+     "type": "snippet",
+     "id": "remove-module"
+    },
+    {
+     "type": "snippet",
+     "id": "clean-parts"
+    },
+    {
+     "type": "snippet",
+     "id": "reassemble"
+    },
+    {
+     "type": "snippet",
+     "id": "reassemble-note"
+    },
+    {
+     "type": "devnote",
+     "text": "Cross-language mismatch in the manual: the DE text says clean with “Wasser oder Alkohol” (water or alcohol), EN and FR say alcohol only. DE/FR also open the maintenance section with “regular care and cleaning contribute to long life”, which the EN text omits. That is a good message for the repairability story."
+    },
+    {
+     "type": "manual",
+     "page": {
+      "en": "p. 4",
+      "de": "S. 4",
+      "fr": "p. 4"
+     },
+     "title": {
+      "en": "Cleaning",
+      "de": "Reinigung",
+      "fr": "Nettoyage"
+     },
+     "text": {
+      "en": "Elements of the volumetric module (lower assembly) can be cleaned with alcohol, or soaked in appropriate decontamination or disinfecting solutions. This operation is particularly important if liquid accidentally entered the pipette. Rinse and dry instrument before reassembling. If ultra-sonic bath is used to remove sticking residues, slightly grease O-ring (see below) and / or plunger before reassembling.",
+      "de": "Die abgenommene Volumeneinheit (Unterteil) der Pipette kann mit Wasser oder Alkohol gereinigt werden. Bei starker Verschmutzung können die einzelnen Teile auch in eine desinfizierende Lösung getaucht werden. Eine sachgemässe Reinigung ist notwendig, wenn versehentlich Flüssigkeit in das Pipetteninnere eingedrungen ist. Instrument vor dem Zusammensetzen spülen und trocknen. Besonders hartnäckige Rückstände im Ultraschall-Bad entfernen. Vor dem Zusammensetzen der Pipette O-Ring leicht einfetten (siehe unten).",
+      "fr": "Le module volumétrique (partie basse) peut être nettoyé à l’alcool ou plongé dans une solution désinfectante ou décontaminante. Cette opération est particulièrement importante si du liquide entre par inadvertance dans l’instrument. Rincer et sécher avant assemblage. Le bain à ultrasons est un auxiliaire efficace pour éliminer les saletés les plus tenaces; graisser ensuite légèrement le joint (voir ci-dessous) avant de remonter l’instrument."
+     },
+     "link": {
+      "en": "https://www.socorex.com/en/laboratory/manual-pipettes/acura-manual/825-manual-micropipette",
+      "fr": "https://www.socorex.com/fr/laboratoire/pipettes-automatiques/acura-manual/825-micropipette-automatique"
+     }
+    }
+   ],
+   "options": [
+    {
+     "icon": "🔍",
+     "label": {
+      "en": "Check the tightness",
+      "de": "Dichtheit prüfen",
+      "fr": "Contrôler l’étanchéité"
+     },
+     "next": "tight-test"
+    },
+    {
+     "label": {
+      "en": "Back to start",
+      "de": "Zurück zum Start",
+      "fr": "Retour au début"
+     },
+     "next": "home",
+     "style": "ghost"
+    }
+   ],
+   "keywords": "clean reinigen nettoyer alcohol ultrasonic residue liquid inside"
+  },
+  "autoclave-guide": {
+   "outcome": "diy",
+   "title": {
+    "en": "Autoclaving the pipette",
+    "de": "Pipette autoklavieren",
+    "fr": "Autoclaver la pipette"
+   },
+   "text": {
+    "en": "The Acura manual is designed for repeated autoclaving at 121 °C.",
+    "de": "Die Acura manual ist für wiederholtes Autoklavieren bei 121 °C ausgelegt.",
+    "fr": "L’Acura manual est conçue pour des autoclavages répétés à 121 °C."
+   },
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "title": {
+        "en": "Autoclave it fully assembled",
+        "de": "Komplett zusammengesetzt autoklavieren",
+        "fr": "Autoclaver sans démontage"
+       },
+       "text": {
+        "en": "121 °C for 20 minutes. No need to take it apart.",
+        "de": "121 °C, 20 Minuten. Zerlegen ist nicht nötig.",
+        "fr": "121 °C pendant 20 minutes. Inutile de la démonter."
+       }
+      },
+      {
+       "title": {
+        "en": "Lay it flat",
+        "de": "Flach hinlegen",
+        "fr": "La placer à plat"
+       },
+       "text": {
+        "en": "Place the instrument horizontally and avoid direct contact with metal.",
+        "de": "Instrument horizontal in den Autoklav legen und direkten Kontakt mit Metall vermeiden.",
+        "fr": "Placer l’instrument à plat en évitant tout contact direct avec des pièces métalliques."
+       }
+      },
+      {
+       "title": {
+        "en": "Let it dry and cool",
+        "de": "Trocknen und abkühlen lassen",
+        "fr": "Laisser sécher et refroidir"
+       },
+       "text": {
+        "en": "The pipette must be dry and completely cooled before use.",
+        "de": "Die Pipette muss vor Gebrauch trocken und vollständig abgekühlt sein.",
+        "fr": "La pipette doit être sèche et complètement refroidie avant usage."
+       }
+      },
+      {
+       "title": {
+        "en": "Check tightness and accuracy",
+        "de": "Dichtheit und Genauigkeit prüfen",
+        "fr": "Contrôler étanchéité et justesse"
+       },
+       "text": {
+        "en": "Check regularly, and at least after 50 autoclaving cycles. Tighten the barrel if it is loose.",
+        "de": "Regelmässig prüfen, mindestens nach 50 Autoklavierzyklen. Zylinder nachziehen, falls lose.",
+        "fr": "Contrôler régulièrement, et au minimum après 50 cycles. Revisser le cylindre s’il est lâche."
+       }
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Repeated autoclaving may change material colours and make the smartie cap harder to turn. Correct autoclaving and the resulting sterility are your responsibility. Damage from wrong autoclaving conditions is excluded from the warranty.",
+      "de": "Wiederholtes Autoklavieren kann Materialfarben verändern und die smartie Kappe schwergängiger machen. Korrektes Autoklavieren und die Sterilität liegen in Ihrer Verantwortung. Schäden durch falsche Autoklavierbedingungen sind von der Garantie ausgeschlossen.",
+      "fr": "Des autoclavages répétés peuvent modifier les couleurs et durcir la rotation du capuchon smartie. Les bonnes conditions d’autoclavage et la stérilité relèvent de votre responsabilité. Les dommages dus à de mauvais paramètres sont exclus de la garantie."
+     }
+    },
+    {
+     "type": "devnote",
+     "text": "“At least after 50 autoclaving cycles” assumes users count cycles. A simple cycle log or a QR-linked counter would make this actionable."
+    },
+    {
+     "type": "manual",
+     "page": {
+      "en": "p. 7",
+      "de": "S. 7",
+      "fr": "p. 7"
+     },
+     "title": {
+      "en": "Sterilisation",
+      "de": "Sterilisation",
+      "fr": "Stérilisation"
+     },
+     "text": {
+      "en": "Instrument has been designed for repeated sterilisation in the autoclave at 121°C (20 minutes), fully assembled. […] Place instrument horizontally in the autoclave, avoiding any direct contact with metal. Allow instrument to dry and cool down before use. […] Check tightness and accuracy regularly but at least after 50 autoclaving cycles. Check volumetric module, tighten barrel if loose. Repeated autoclaving may affect material colours and free rotation of smartie colour caps. Correct autoclaving and resulting sterility are the responsibility of the user.",
+      "de": "Die Konstruktion des Instruments berücksichtigt ein wiederholtes Sterilisieren im Autoklav bei 121 °C (20 Minuten). […] Instrument horizontal in den Autoklav legen, direkten Kontakt mit Metall vermeiden. Vor Gebrauch prüfen, dass Pipette trocken und vollständig abgekühlt ist. […] Abdichtung und Leistungsdaten regelmässig, jedoch mindestens nach 50 Autoklavierungszyklen kontrollieren. Volumeneinheit falls lose wieder anziehen. Eine Veränderung der Materialfarbe sowie erschwerte Rotation der smartie Kappe können nach wiederholtem Autoklavieren auftreten. Korrektes Autoklavieren und daraus resultierende Sterilität stehen unter der Verantwortung des Anwenders.",
+      "fr": "La pipette est conçue pour être stérilisée à l’autoclave à 121°C, (20 minutes) sans démontage. […] Placer l’instrument à plat dans l’autoclave en évitant tout contact direct avec des pièces métalliques. La pipette doit être sèche et complètement refroidie avant son utilisation. […] Contrôler la justesse et l’étanchéité de l’instrument régulièrement, mais au minimum après 50 cycles d’autoclavage. Contrôler aussi la bonne tenue du module volumétrique, revisser en cas de besoin. Un changement de couleur des matériaux de même qu’une résistance à la rotation du capuchon smartie peuvent apparaître. L’utilisateur est responsable des bonnes conditions d’autoclavage ainsi que de la stérilité résultante."
+     },
+     "link": {
+      "en": "https://www.socorex.com/en/laboratory/manual-pipettes/acura-manual/825-manual-micropipette",
+      "fr": "https://www.socorex.com/fr/laboratoire/pipettes-automatiques/acura-manual/825-micropipette-automatique"
+     }
+    }
+   ],
+   "options": [
+    {
+     "icon": "🔍",
+     "label": {
+      "en": "Check the tightness",
+      "de": "Dichtheit prüfen",
+      "fr": "Contrôler l’étanchéité"
+     },
+     "next": "tight-test"
+    },
+    {
+     "icon": "📏",
+     "label": {
+      "en": "Check the volume",
+      "de": "Volumen prüfen",
+      "fr": "Contrôler le volume"
+     },
+     "next": "calib-check"
+    },
+    {
+     "label": {
+      "en": "Back to start",
+      "de": "Zurück zum Start",
+      "fr": "Retour au début"
+     },
+     "next": "home",
+     "style": "ghost"
+    }
+   ],
+   "keywords": "autoclave autoklav autoclaver sterilise sterilisation 121"
+  },
+  "calib-check": {
+   "outcome": "check",
+   "title": {
+    "en": "Yearly performance check",
+    "de": "Jährliche Leistungskontrolle",
+    "fr": "Contrôle annuel des performances"
+   },
+   "text": {
+    "en": "The manual recommends checking performance according to your lab's procedures (SOP, GLP), or at least once a year. You check by weighing water.",
+    "de": "Die Anleitung empfiehlt, die Leistung nach den Prozeduren Ihres Labors (SOP, GLP) zu prüfen, mindestens aber einmal pro Jahr. Die Prüfung erfolgt durch Wägen von Wasser.",
+    "fr": "Le mode d’emploi recommande de contrôler les performances selon les procédures du laboratoire (SOP, GLP), ou au minimum une fois par an. Le contrôle se fait par pesée d’eau."
+   },
+   "blocks": [
+    {
+     "type": "checklist",
+     "items": [
+      {
+       "en": "Analytical balance",
+       "de": "Analysenwaage",
+       "fr": "Balance analytique"
+      },
+      {
+       "en": "Distilled water",
+       "de": "Destilliertes Wasser",
+       "fr": "Eau distillée"
+      },
+      {
+       "en": "Constant room temperature, 20–25 °C (± 0.5 °C)",
+       "de": "Konstante Raumtemperatur, 20–25 °C (± 0,5 °C)",
+       "fr": "Température ambiante constante, 20–25 °C (± 0,5 °C)"
+      },
+      {
+       "en": "Tightness already checked: no droplet",
+       "de": "Dichtheit bereits geprüft: kein Tropfen",
+       "fr": "Étanchéité déjà contrôlée : aucune goutte"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "title": {
+        "en": "Check the tightness first",
+        "de": "Zuerst die Dichtheit prüfen",
+        "fr": "D’abord contrôler l’étanchéité"
+       },
+       "text": {
+        "en": "A leaking pipette cannot be calibrated properly.",
+        "de": "Eine undichte Pipette lässt sich nicht richtig kalibrieren.",
+        "fr": "Une pipette qui fuit ne peut pas être calibrée correctement."
+       }
+      },
+      {
+       "title": {
+        "en": "Weigh the dispensed water",
+        "de": "Dosiertes Wasser wägen",
+        "fr": "Peser l’eau distribuée"
+       },
+       "text": {
+        "en": "Calibration is gravimetric, with distilled water, according to ISO 8655.",
+        "de": "Die Kontrolle erfolgt gravimetrisch mit destilliertem Wasser nach ISO 8655.",
+        "fr": "Les mesures se font par gravimétrie, avec de l’eau distillée, selon la norme ISO 8655."
+       }
+      },
+      {
+       "title": {
+        "en": "Ten measurements, small volume first",
+        "de": "Zehn Messungen, zuerst kleines Volumen",
+        "fr": "Dix mesures, d’abord le petit volume"
+       },
+       "text": {
+        "en": "Perform ten measurements, starting with the small volume.",
+        "de": "Zehn Messungen durchführen, zuerst mit dem kleinen Volumen.",
+        "fr": "Effectuer dix mesures, d’abord sur le petit volume."
+       }
+      },
+      {
+       "title": {
+        "en": "Compare with the recommended values",
+        "de": "Mit den Sollwerten vergleichen",
+        "fr": "Comparer aux valeurs recommandées"
+       },
+       "text": {
+        "en": "Use the values of your QC certificate or your lab's limits.",
+        "de": "Werte des Kontrollzertifikats oder Ihre Laborgrenzen verwenden.",
+        "fr": "Utiliser les valeurs du certificat de contrôle ou les limites de votre laboratoire."
+       }
+      }
+     ]
+    },
+    {
+     "type": "video",
+     "id": "096aGez7Cxc",
+     "title": {
+      "en": "Calibration - Manual Laboratory Pipette Acura® manual",
+      "de": "Kalibrierung – Handbuch zur manuellen Laborpipette Acura®",
+      "fr": "Étalonnage - Pipette manuelle de laboratoire Acura® : mode d'emploi"
+     }
+    },
+    {
+     "type": "devnote",
+     "text": "EN says “small volume”, DE “kleinsten Volumen” (smallest), FR “volume inférieur” (lower). Three wordings for one step. The 100–1000 µL pipette has no tolerance table in this manual (see the performance page). Also: viscous or volatile liquids or unusual temperature → recalibrate with that liquid, which most users don't know."
+    },
+    {
+     "type": "manual",
+     "page": {
+      "en": "p. 7",
+      "de": "S. 7",
+      "fr": "p. 7"
+     },
+     "title": {
+      "en": "In-lab calibration",
+      "de": "In-Lab Kalibration",
+      "fr": "Calibration en laboratoire"
+     },
+     "text": {
+      "en": "If performance results are no longer within recommended values, for instance after QC check or replacing parts, or if changes occur in physical parameters (liquid density, temperature), recalibration is easily performed using an analytical balance. Ten measurements should be first performed on small volume after checking seal tightness and perfect working condition of the instrument.",
+      "de": "Das swift-set Kalibrationssystem mit integriertem Schlüssel und Stoppmechanismus erlaubt eine rasche Neu-Justierungen durch den Anwender, wenn nach Kontrolle die Resultate den vorgegebenen Toleranzen nicht entsprechen oder bei stark veränderten Anwendungskonditionen (Flüssigkeitsdichte, Temperatur). Messungen erfolgen mittels einer analytischen Waage. Nach Kontrolle der Dichtung und perfekten Arbeitskonditionen des Instruments, sollten zehn Messungen zuerst auf dem kleinsten Volumen, durchgeführt werden.",
+      "fr": "En cas de remplacement de pièces pouvant influencer la mesure, si les performances ne sont plus dans les tolérances, ou si des changements interviennent dans les paramètres physiques du liquide (densité, température), il y a lieu de procéder à l’étalonnage. Le volume sera mesuré de préférence au moyen d’une balance analytique. On procédera à dix mesures d’abord sur le volume inférieur, en s’assurant au préalable de l’étanchéité et du parfait état de fonctionnement de l’instrument."
+     },
+     "link": {
+      "en": "https://www.socorex.com/en/laboratory/manual-pipettes/acura-manual/825-manual-micropipette",
+      "fr": "https://www.socorex.com/fr/laboratoire/pipettes-automatiques/acura-manual/825-micropipette-automatique"
+     }
+    }
+   ],
+   "options": [
+    {
+     "icon": "✅",
+     "label": {
+      "en": "Within tolerance. All good",
+      "de": "Innerhalb der Toleranz. Alles gut",
+      "fr": "Dans la tolérance. Tout va bien"
+     },
+     "next": "home"
+    },
+    {
+     "icon": "🎛️",
+     "label": {
+      "en": "Out of tolerance",
+      "de": "Ausserhalb der Toleranz",
+      "fr": "Hors tolérance"
+     },
+     "next": "calib-adjust"
+    },
+    {
+     "icon": "💧",
+     "label": {
+      "en": "I see a droplet at the tip",
+      "de": "Ich sehe einen Tropfen an der Spitze",
+      "fr": "Je vois une goutte à l’embout"
+     },
+     "next": "leak-q1"
+    }
+   ],
+   "keywords": "calibration kalibrierung étalonnage gravimetric balance waage iso 8655 yearly annual"
+  },
+  "calib-adjust": {
+   "outcome": "diy",
+   "title": {
+    "en": "Recalibrate (adjustable-volume models)",
+    "de": "Neu kalibrieren (Modelle mit einstellbarem Volumen)",
+    "fr": "Recalibrer (modèles à volume variable)"
+   },
+   "text": {
+    "en": "The swift-set system lets lab staff recalibrate using an analytical balance, after a failed check or after replacing parts.",
+    "de": "Mit dem swift-set System kann der Anwender nach einer nicht bestandenen Kontrolle oder nach einem Teiletausch mit einer Analysenwaage neu justieren.",
+    "fr": "Le système swift-set permet à l’utilisateur de recalibrer avec une balance analytique, après un contrôle non conforme ou un remplacement de pièces."
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "warning",
+     "text": {
+      "en": "Check the tightness and that the pipette works perfectly before you recalibrate.",
+      "de": "Prüfen Sie vorher die Dichtheit und den einwandfreien Zustand der Pipette.",
+      "fr": "Vérifiez d’abord l’étanchéité et le parfait état de la pipette."
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "title": {
+        "en": "Open the plunger button",
+        "de": "Druckknopf öffnen",
+        "fr": "Ouvrir le bouton-poussoir"
+       },
+       "text": {
+        "en": "Remove the smartie cap (a) and pull out the calibration screw (b).",
+        "de": "smartie Kappe (a) abnehmen und Kalibrationsschraube (b) herausziehen.",
+        "fr": "Retirer le capuchon smartie (a) et sortir la clé de calibration (b)."
+       },
+       "image": "images/fig12-calibration-screw.png"
+      },
+      {
+       "title": {
+        "en": "Unlock the calibration cursor",
+        "de": "Kalibrationsschieber entriegeln",
+        "fr": "Déverrouiller le verrou"
+       },
+       "text": {
+        "en": "Remove the calibration seal (c). With a pointed tool, such as a tip, move the cursor (d) to the CAL position.",
+        "de": "Siegeletikette (c) abziehen. Mit einem spitzen Gegenstand, z. B. einer Spitze, den Schieber (d) auf CAL setzen.",
+        "fr": "Retirer la pastille (c). Avec un objet pointu, p. ex. un embout, placer le verrou (d) sur CAL."
+       },
+       "image": "images/fig13-calibration-cursor.png"
+      },
+      {
+       "title": {
+        "en": "Turn the calibration screw",
+        "de": "Kalibrationsschraube drehen",
+        "fr": "Tourner la clé de calibration"
+       },
+       "text": {
+        "en": "Turn it until the average weighed volume shows in the display window. Don't hold the push button.",
+        "de": "Drehen, bis das mittlere gemessene Volumen im Display erscheint. Druckknopf dabei nicht halten.",
+        "fr": "Tourner jusqu’à ce que le volume moyen pesé apparaisse à l’affichage, sans retenir le bouton."
+       }
+      },
+      {
+       "title": {
+        "en": "Lock it",
+        "de": "Verriegeln",
+        "fr": "Verrouiller"
+       },
+       "text": {
+        "en": "Move the cursor back to LOCK. Press fully to the overtravel position. Put the smartie cap back on.",
+        "de": "Schieber zurück auf LOCK setzen. Bis zum Überhub drücken. smartie Kappe wieder aufsetzen.",
+        "fr": "Replacer le verrou sur LOCK. Appuyer à fond. Remettre le capuchon smartie."
+       }
+      },
+      {
+       "title": {
+        "en": "Test it",
+        "de": "Testen",
+        "fr": "Tester"
+       },
+       "text": {
+        "en": "Make a few plunger movements and check the resulting volume.",
+        "de": "Einige Kolbenbewegungen ausführen und das Ergebnis kontrollieren.",
+        "fr": "Effectuer quelques mouvements du piston et contrôler le volume."
+       }
+      },
+      {
+       "title": {
+        "en": "Seal it",
+        "de": "Versiegeln",
+        "fr": "Sceller"
+       },
+       "text": {
+        "en": "Place a new calibration seal over the cursor.",
+        "de": "Eine neue Siegeletikette auf den Schieber kleben.",
+        "fr": "Coller une nouvelle pastille sur le verrou."
+       }
+      }
+     ]
+    },
+    {
+     "type": "devnote",
+     "text": "Breaking and renewing the calibration seal (spare part 33) suggests a traceability or warranty angle. Ask Socorex what this means for lab compliance. DE names part 33 “Kalibrationsschieber” in the spare list but “Siegeletikette” in the text: inconsistent."
+    },
+    {
+     "type": "manual",
+     "page": {
+      "en": "p. 7",
+      "de": "S. 7",
+      "fr": "p. 7"
+     },
+     "title": {
+      "en": "Adjustable volume models (Fig. 12 and 13)",
+      "de": "Modelle mit einstellbarem Volumen (Fig. 12 und 13)",
+      "fr": "Modèles à volume variable (Fig. 12 et 13)"
+     },
+     "text": {
+      "en": "If performance results are no longer within recommended values, for instance after QC check or replacing parts, or if changes occur in physical parameters (liquid density, temperature), recalibration is easily performed using an analytical balance. Ten measurements should be first performed on small volume after checking seal tightness and perfect working condition of the instrument.",
+      "de": "Das swift-set Kalibrationssystem mit integriertem Schlüssel und Stoppmechanismus erlaubt eine rasche Neu-Justierungen durch den Anwender, wenn nach Kontrolle die Resultate den vorgegebenen Toleranzen nicht entsprechen oder bei stark veränderten Anwendungskonditionen (Flüssigkeitsdichte, Temperatur). Messungen erfolgen mittels einer analytischen Waage. Nach Kontrolle der Dichtung und perfekten Arbeitskonditionen des Instruments, sollten zehn Messungen zuerst auf dem kleinsten Volumen, durchgeführt werden.",
+      "fr": "En cas de remplacement de pièces pouvant influencer la mesure, si les performances ne sont plus dans les tolérances, ou si des changements interviennent dans les paramètres physiques du liquide (densité, température), il y a lieu de procéder à l’étalonnage. Le volume sera mesuré de préférence au moyen d’une balance analytique. On procédera à dix mesures d’abord sur le volume inférieur, en s’assurant au préalable de l’étanchéité et du parfait état de fonctionnement de l’instrument."
+     },
+     "link": {
+      "en": "https://www.socorex.com/en/laboratory/manual-pipettes/acura-manual/825-manual-micropipette",
+      "fr": "https://www.socorex.com/fr/laboratoire/pipettes-automatiques/acura-manual/825-micropipette-automatique"
+     }
+    }
+   ],
+   "options": [
+    {
+     "icon": "📏",
+     "label": {
+      "en": "Run the check again",
+      "de": "Kontrolle wiederholen",
+      "fr": "Refaire le contrôle"
+     },
+     "next": "calib-check"
+    },
+    {
+     "icon": "📦",
+     "label": {
+      "en": "Can't get within tolerance",
+      "de": "Toleranz nicht erreichbar",
+      "fr": "Impossible d’atteindre la tolérance"
+     },
+     "next": "dealer"
+    },
+    {
+     "label": {
+      "en": "Back to start",
+      "de": "Zurück zum Start",
+      "fr": "Retour au début"
+     },
+     "next": "home",
+     "style": "ghost"
+    }
+   ]
+  },
+  "parts": {
+   "title": {
+    "en": "Which parts can be replaced?",
+    "de": "Welche Teile lassen sich ersetzen?",
+    "fr": "Quelles pièces peut-on remplacer ?"
+   },
+   "text": {
+    "en": "Socorex pipettes are made to be taken apart. Tap a number to see the part. Use original spare parts only.",
+    "de": "Socorex-Pipetten sind zum Zerlegen gebaut. Tippen Sie auf eine Nummer, um das Teil zu sehen. Nur Originalersatzteile verwenden.",
+    "fr": "Les pipettes Socorex sont conçues pour être démontées. Touchez un numéro pour voir la pièce. N’utilisez que des pièces d’origine."
+   },
+   "blocks": [
+    {
+     "type": "snippet",
+     "id": "spare-diagram"
+    },
+    {
+     "type": "repair",
+     "text": {
+      "en": "A single worn part doesn't mean a new pipette. Seals, spring, ring and more can be changed, and the instrument can be recalibrated.",
+      "de": "Ein einzelnes abgenutztes Teil bedeutet keine neue Pipette. Dichtungen, Feder, Ring und mehr lassen sich austauschen, und das Instrument kann neu kalibriert werden.",
+      "fr": "Une pièce usée ne signifie pas une pipette neuve. Joints, ressort, bague et d’autres pièces se changent, et l’instrument peut être recalibré."
+     },
+     "parts": [
+      {
+       "en": "PTFE sleeve",
+       "de": "PTFE Hülse",
+       "fr": "Manchette PTFE"
+      },
+      {
+       "en": "O-ring",
+       "de": "O-Ring",
+       "fr": "O-ring"
+      },
+      {
+       "en": "Spring",
+       "de": "Feder",
+       "fr": "Ressort"
+      },
+      {
+       "en": "Ring",
+       "de": "Ring",
+       "fr": "Bague"
+      },
+      {
+       "en": "Barrel",
+       "de": "Zylinder",
+       "fr": "Cylindre"
+      },
+      {
+       "en": "Ejector",
+       "de": "Abwurf",
+       "fr": "Éjecteur"
+      },
+      {
+       "en": "Calibration seal",
+       "de": "Kalibrations-Siegel",
+       "fr": "Pastille de protection"
+      }
+     ]
+    },
+    {
+     "type": "video",
+     "id": "VDMQ3Mplh3k",
+     "title": {
+      "en": "Acura® manual: general presentation",
+      "de": "Acura® manual: Gesamtpräsentation",
+      "fr": "Acura® manual : présentation générale"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Order original spare parts from authorised dealers only.",
+      "de": "Originalersatzteile nur über autorisierte Händler bestellen.",
+      "fr": "Commandez des pièces d’origine uniquement auprès d’un distributeur agréé."
+     }
+    },
+    {
+     "type": "manual",
+     "page": {
+      "en": "p. 4",
+      "de": "S. 4",
+      "fr": "p. 4"
+     },
+     "title": {
+      "en": "Maintenance",
+      "de": "Wartung",
+      "fr": "Entretien"
+     },
+     "text": {
+      "en": "The models were designed to sustain long term operation with minimal maintenance and service requirements. However it is recommended to control instrument performance in accordance with laboratory internal procedures (SOP, GLP, etc) or at least once a year. Defect parts must be replaced, or instrument returned to dealer for repair. Order original spare parts from authorised dealers only.",
+      "de": "Die Modelle benötigen in der Regel keine Wartung. Eine stetige Pflege und Reinigung tragen zur optimalen Funktion und Langlebigkeit des Instruments bei. Es wird empfohlen, die Leistungsdaten gemäss internen Kontrollprozeduren (SOP, GLP, usw.) oder mindestens einmal pro Jahr zu prüfen. Defekte Teile nur durch Originalteile vom Hersteller ersetzen. Instrument zur Reparatur an den Fachhandel einsenden.",
+      "fr": "L’instrument ne nécessite pratiquement aucun entretien. Le soin apporté lors de son utilisation et son maintien en état de propreté contribuent à son bon fonctionnement et à sa longévité. Il est pourtant recommandé de contrôler les performances de l’instrument selon les procédures internes du laboratoire (SOP, GLP, etc.) ou au minimum une fois par année. Toute pièce défectueuse doit être remplacée ou l’instrument retourné pour réparation. N’utiliser que des pièces de rechange d’origine commandées auprès d’un distributeur agréé."
+     },
+     "link": {
+      "en": "https://www.socorex.com/en/laboratory/manual-pipettes/acura-manual/825-manual-micropipette",
+      "fr": "https://www.socorex.com/fr/laboratoire/pipettes-automatiques/acura-manual/825-micropipette-automatique"
+     }
+    }
+   ],
+   "options": [
+    {
+     "icon": "🔧",
+     "label": {
+      "en": "Replace the seals",
+      "de": "Dichtungen ersetzen",
+      "fr": "Remplacer les joints"
+     },
+     "next": "leak-seals"
+    },
+    {
+     "icon": "📦",
+     "label": {
+      "en": "Where do I order or return?",
+      "de": "Wo bestelle oder sende ich ein?",
+      "fr": "Où commander ou retourner ?"
+     },
+     "next": "dealer"
+    },
+    {
+     "label": {
+      "en": "Back to start",
+      "de": "Zurück zum Start",
+      "fr": "Retour au début"
+     },
+     "next": "home",
+     "style": "ghost"
+    }
+   ],
+   "keywords": "spare parts ersatzteile pièces détachées order bestellen"
+  },
+  "dealer": {
+   "outcome": "service",
+   "title": {
+    "en": "Return it to your dealer",
+    "de": "An den Fachhandel einsenden",
+    "fr": "Retourner chez votre distributeur"
+   },
+   "text": {
+    "en": "If regular maintenance does not remove the defect, the manual says to return the instrument to the dealer you bought it from.",
+    "de": "Lässt sich eine Störung durch die Wartung nicht beheben, ist das Instrument laut Anleitung an den Fachhändler zurückzusenden, bei dem Sie es gekauft haben.",
+    "fr": "Si l’entretien courant n’élimine pas le défaut, le mode d’emploi indique de retourner l’instrument au revendeur."
+   },
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      {
+       "title": {
+        "en": "Get return authorisation",
+        "de": "Rücksendung anfordern",
+        "fr": "Obtenir l’accord du revendeur"
+       },
+       "text": {
+        "en": "Contact the dealer you bought it from first.",
+        "de": "Kontaktieren Sie zuerst den Fachhändler, bei dem Sie die Pipette gekauft haben.",
+        "fr": "Contactez d’abord le revendeur auprès duquel vous l’avez achetée."
+       }
+      },
+      {
+       "title": {
+        "en": "Decontaminate it",
+        "de": "Desinfizieren",
+        "fr": "Décontaminer"
+       },
+       "text": {
+        "en": "Decontaminate the instrument before returning it.",
+        "de": "Instrument vor der Rücksendung desinfizieren.",
+        "fr": "Décontaminer l’instrument avant de le retourner."
+       }
+      },
+      {
+       "title": {
+        "en": "Enclose the form and send it",
+        "de": "Formular beilegen und senden",
+        "fr": "Joindre le formulaire et expédier"
+       },
+       "text": {
+        "en": "Include the corresponding decontamination form.",
+        "de": "Das entsprechende Formular beilegen.",
+        "fr": "Joindre le formulaire correspondant."
+       }
+      }
+     ]
+    },
+    {
+     "type": "repair",
+     "text": {
+      "en": "Socorex instruments can be disassembled. Parts can be cleaned or changed if damaged, and the instrument newly calibrated if required.",
+      "de": "Socorex-Instrumente lassen sich zerlegen. Teile können gereinigt oder bei Schäden ersetzt werden, und das Instrument kann bei Bedarf neu kalibriert werden.",
+      "fr": "Les instruments Socorex peuvent être démontés. Les pièces peuvent être nettoyées ou changées si elles sont endommagées, et l’instrument recalibré si nécessaire."
+     },
+     "parts": [
+      {
+       "en": "Cleaning",
+       "de": "Reinigung",
+       "fr": "Nettoyage"
+      },
+      {
+       "en": "Spare parts",
+       "de": "Ersatzteile",
+       "fr": "Pièces détachées"
+      },
+      {
+       "en": "Recalibration",
+       "de": "Neu-Kalibration",
+       "fr": "Recalibration"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Damage from not following the instructions, safety precautions or autoclaving conditions is excluded from the warranty. Repairs and part replacements do not extend the warranty period.",
+      "de": "Schäden durch Missachtung der Anleitung, der Sicherheitshinweise oder der Autoklavierbedingungen sind von der Garantie ausgeschlossen. Reparaturen und Teiletausch verlängern die Garantie nicht.",
+      "fr": "Les dommages dus au non-respect des instructions, des consignes de sécurité ou des conditions d’autoclavage sont exclus de la garantie. Réparations et changements de pièces ne prolongent pas la garantie."
+     }
+    },
+    {
+     "type": "devnote",
+     "text": "The manual says “dealer” but gives no Socorex service contact, turnaround time, cost range, or how this compares to replacing the pipette. These are open questions users likely have; the “value of repair” story could answer them."
+    },
+    {
+     "type": "manual",
+     "page": {
+      "en": "p. 7",
+      "de": "S. 7",
+      "fr": "p. 7"
+     },
+     "title": {
+      "en": "Warranty",
+      "de": "Garantie",
+      "fr": "Garantie"
+     },
+     "text": {
+      "en": "Should regular maintenance not eliminate a detected defect, return the instrument to the dealer from whom it was purchased after obtaining return authorization. Decontaminate instrument prior to returning it and with the corresponding form",
+      "de": "Falls Störungen vorliegen, die nach genannten Hinweisen nicht zu beseitigen sind, senden Sie das Instrument an Ihren Fachhändler zurück (Rücksenderecht anfordern). Instrument vor Rücksendung desinfizieren und entsprechendes Formular beilegen.",
+      "fr": "Si l’instrument présente un défaut qui n’a pas pu être éliminé par l’entretien courant, le retourner pour réparation après obtention de l’accord du revendeur. Décontaminer l’instrument avant de le retourner et avec le formulaire correspondant."
+     },
+     "link": {
+      "en": "https://www.socorex.com/en/laboratory/manual-pipettes/acura-manual/825-manual-micropipette",
+      "fr": "https://www.socorex.com/fr/laboratoire/pipettes-automatiques/acura-manual/825-micropipette-automatique"
+     }
+    }
+   ],
+   "options": [
+    {
+     "label": {
+      "en": "Back to start",
+      "de": "Zurück zum Start",
+      "fr": "Retour au début"
+     },
+     "next": "home",
+     "style": "ghost"
+    }
+   ],
+   "keywords": "service repair reparatur réparation return rücksendung retour dealer händler warranty garantie"
+  }
+ }
+}

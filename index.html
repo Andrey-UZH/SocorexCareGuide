@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instrument Care Guide</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%230a5bb5%27/%3E%3C/svg%3E">
+<style>
+:root{
+  --blue:#0a5bb5; --blue-dark:#07366e; --blue-mid:#2f7fd1; --blue-light:#eaf2fb; --blue-line:#cfe0f3;
+  --ink:#10243e; --muted:#5b7899; --white:#fff;
+  --diy:#117a4d; --diy-bg:#e6f5ee;
+  --check:#a15c00; --check-bg:#fff3de;
+  --service:#b3261e; --service-bg:#fdeceb;
+  --radius:14px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font:17px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--blue-light)}
+header{background:var(--blue);color:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 8px rgba(7,54,110,.25)}
+.bar{max-width:760px;margin:0 auto;padding:10px 12px;display:flex;align-items:center;gap:8px}
+.brand{font-weight:800;letter-spacing:.02em;font-size:17px;line-height:1.15;min-width:0}
+.brand small{display:block;font-weight:500;font-size:12px;opacity:.85;letter-spacing:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.spacer{flex:1}
+.iconbtn{background:rgba(255,255,255,.14);color:#fff;border:0;border-radius:10px;padding:8px 12px;font:inherit;font-size:15px;cursor:pointer;min-height:40px;white-space:nowrap}
+.iconbtn:hover{background:rgba(255,255,255,.25)}
+.iconbtn[hidden]{display:none}
+.lang{display:flex;background:rgba(255,255,255,.14);border-radius:10px;padding:3px;gap:2px}
+.lang button{background:transparent;border:0;color:#fff;font:inherit;font-size:13px;font-weight:700;padding:6px 9px;border-radius:8px;cursor:pointer;min-height:34px}
+.lang button[aria-pressed=true]{background:#fff;color:var(--blue-dark)}
+.progress{height:4px;background:rgba(255,255,255,.25)}
+.progress i{display:block;height:100%;width:0;background:#fff;transition:width .3s}
+main{max-width:760px;margin:0 auto;padding:20px 16px 60px}
+.demo-banner{background:#fff;border:1px dashed var(--blue-mid);color:var(--blue-dark);border-radius:10px;padding:8px 12px;font-size:14px;margin-bottom:16px}
+h1{font-size:28px;line-height:1.2;margin:6px 0 8px;color:var(--blue-dark)}
+h2.group{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:22px 0 -4px}
+.lead{color:#34506f;margin:0 0 18px}
+.crumbs{font-size:13px;color:var(--muted);margin-bottom:6px;display:flex;flex-wrap:wrap;gap:4px}
+.crumbs a{color:var(--blue);text-decoration:none;cursor:pointer}
+.crumbs a:hover{text-decoration:underline}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;font-weight:700;font-size:14px;margin-bottom:6px;flex-wrap:wrap}
+.badge.diy{background:var(--diy-bg);color:var(--diy)} .badge.check{background:var(--check-bg);color:var(--check)} .badge.service{background:var(--service-bg);color:var(--service)}
+.badge span.d{font-weight:500;opacity:.8}
+.card{background:#fff;border-radius:var(--radius);padding:18px;margin:14px 0;box-shadow:0 1px 3px rgba(7,54,110,.1)}
+.card h3{margin:0 0 10px;font-size:16px;color:var(--blue-dark);text-transform:uppercase;letter-spacing:.05em}
+.search{width:100%;padding:14px 16px;border-radius:12px;border:2px solid var(--blue-line);font:inherit;margin-bottom:6px;background:#fff}
+.search:focus{outline:none;border-color:var(--blue)}
+.options{display:grid;gap:10px;margin-top:14px}
+.opt{display:flex;align-items:center;gap:14px;text-align:left;width:100%;background:#fff;border:2px solid var(--blue-line);color:var(--ink);border-radius:var(--radius);padding:14px 16px;font:inherit;cursor:pointer;min-height:64px;transition:.12s}
+.opt:hover,.opt:focus-visible{border-color:var(--blue);transform:translateY(-1px);box-shadow:0 4px 12px rgba(10,91,181,.15);outline:none}
+.opt .ic{font-size:26px;width:38px;text-align:center;flex:none}
+.opt b{display:block;font-size:18px;color:var(--blue-dark);line-height:1.25}
+.opt small{color:var(--muted);font-size:14px;display:block;line-height:1.35;margin-top:2px}
+.opt .chev{margin-left:auto;color:var(--blue);font-size:22px}
+.opt.ghost{background:transparent;border-style:dashed}
+.callout{display:flex;gap:12px;border-radius:12px;padding:14px;margin:14px 0}
+.callout.warning{background:var(--service-bg);border-left:5px solid var(--service)}
+.callout.info{background:var(--blue-light);border-left:5px solid var(--blue)}
+.callout.tip{background:var(--diy-bg);border-left:5px solid var(--diy)}
+.callout .ci{font-size:22px}
+.devnote{border:2px dashed #d99a1f;background:#fffaf0;color:#6b4a00;border-radius:12px;padding:12px 14px;margin:14px 0;font-size:15px}
+.devnote b{text-transform:uppercase;font-size:12px;letter-spacing:.08em;display:block;margin-bottom:2px}
+figure{margin:14px 0}
+.figwrap{position:relative;border-radius:12px;overflow:hidden;background:#fff;border:1px solid var(--blue-line);max-width:100%}
+.figwrap.narrow{max-width:420px;margin-left:auto;margin-right:auto}
+.figwrap img{display:block;width:100%;height:auto}
+figcaption{font-size:14px;color:var(--muted);margin-top:6px}
+.hs{position:absolute;min-width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:15px;background:var(--blue);color:#fff;border:3px solid #fff;font-weight:700;font-size:13px;cursor:pointer;box-shadow:0 0 0 0 rgba(10,91,181,.6);animation:pulse 2s infinite;padding:0 4px;line-height:1}
+.hs.on{background:var(--blue-dark);animation:none}
+@keyframes pulse{70%{box-shadow:0 0 0 12px rgba(10,91,181,0)}100%{box-shadow:0 0 0 0 rgba(10,91,181,0)}}
+.hsinfo{margin-top:8px;background:var(--blue-light);border-radius:10px;padding:10px 14px;min-height:20px;font-size:15px}
+.video{position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;background:var(--blue-dark)}
+.video iframe,.video .ph{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video .ph{display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;text-align:center;padding:16px;gap:6px}
+.video .ph a{color:#fff;font-weight:600}
+ul.check{list-style:none;padding:0;margin:0}
+ul.check li{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--blue-light)}
+ul.check li:last-child{border:0}
+input[type=checkbox]{width:24px;height:24px;accent-color:var(--blue);flex:none;margin-top:1px}
+.time{float:right;font-size:14px;color:var(--muted);text-transform:none;letter-spacing:0;font-weight:500}
+ol.steps{list-style:none;padding:0;margin:0;counter-reset:s}
+ol.steps>li{counter-increment:s;position:relative;padding:4px 0 18px 54px}
+ol.steps>li::before{content:counter(s);position:absolute;left:0;top:2px;width:38px;height:38px;border-radius:50%;background:var(--blue);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+ol.steps>li.done::before{content:"✓";background:var(--diy)}
+ol.steps>li.done .st{text-decoration:line-through;opacity:.6}
+.st{font-weight:700;font-size:18px;color:var(--blue-dark)}
+.step-head{display:flex;align-items:center;gap:10px;cursor:pointer}
+.step-head input{margin:0}
+.manual{border-left:5px solid var(--blue);background:#fff}
+.manual .label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700}
+.manual blockquote{margin:8px 0;padding:0;font-style:italic;color:#34506f;white-space:pre-line}
+.manual a{color:var(--blue);font-weight:600}
+.repair{background:linear-gradient(135deg,var(--blue-dark),var(--blue));color:#fff}
+.repair h3{color:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.chip{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.4);padding:4px 12px;border-radius:999px;font-size:14px}
+.chip::before{content:"✓ ";font-weight:700}
+.results .opt{min-height:0;padding:12px 16px}
+.empty{padding:40px 16px;text-align:center}
+.drop{border:2px dashed var(--blue-mid);border-radius:var(--radius);padding:24px;text-align:center;background:#fff}
+code{background:var(--blue-light);padding:2px 6px;border-radius:6px;font-size:.9em}
+footer{max-width:760px;margin:0 auto;padding:0 16px 30px;font-size:13px;color:var(--muted)}
+footer label{display:inline-flex;gap:8px;align-items:center;cursor:pointer}
+footer input{width:18px;height:18px;margin:0}
+@media(max-width:480px){h1{font-size:24px}.opt b{font-size:17px}.brand{font-size:15px}.iconbtn{padding:8px 10px}}
+@media print{header,.options,footer,.demo-banner{display:none}body{background:#fff}}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <button class="iconbtn" id="back" hidden aria-label="Back">←</button>
+    <div class="brand"><span id="brand-title">Care Guide</span><small id="brand-sub"></small></div>
+    <div class="spacer"></div>
+    <div class="lang" id="lang" role="group" aria-label="Language"></div>
+    <button class="iconbtn" id="home" hidden aria-label="Start over">⟲</button>
+  </div>
+  <div class="progress"><i id="prog"></i></div>
+</header>
+<main id="app"></main>
+<footer id="foot"></footer>
+
+<script>
+(function(){
+  "use strict";
+  var DATA=null, trail=[], app=document.getElementById("app"), hsStore=[];
+  var backBtn=document.getElementById("back"), homeBtn=document.getElementById("home"), langBox=document.getElementById("lang");
+  var params=new URLSearchParams(location.search);
+  var lang="en", dev=params.get("dev")==="1";
+
+  var DEFAULT_UI={
+    back:"Back", startOver:"Start over", search:"Or type a keyword…", noMatch:"No match. Try another word.",
+    beforeYouStart:"Before you start", fromManual:"From the operating instructions", openManual:"Open full manual ↗",
+    builtToRepair:"Built to be repaired", tapDots:"Tap a dot to see what it is.", videoMissing:"Add a YouTube video ID in content.json",
+    browseChannel:"Browse the Socorex channel ↗", watchYouTube:"Watch on YouTube ↗", markDone:"Mark step done", question:"Question",
+    unofficial:"Unofficial hackathon prototype, not affiliated with or approved by Socorex.", contentVersion:"Content version",
+    showNotes:"Show design notes (prototype)", notFound:"Page not found"
+  };
+
+  /* ---------- helpers ---------- */
+  function t(x){ // translatable value: string or {en,de,fr}
+    if(x==null) return "";
+    if(typeof x==="string") return x;
+    if(typeof x==="object" && !Array.isArray(x)) return x[lang]!=null? x[lang] : (x.en!=null? x.en : (Object.keys(x).length? x[Object.keys(x)[0]] : ""));
+    return String(x);
+  }
+  function ui(k){ var v=DATA&&DATA.ui&&DATA.ui[k]; return v? t(v) : DEFAULT_UI[k]; }
+  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+  function fmt(x){ // **bold**, [text](https://url)
+    return esc(t(x)).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>")
+      .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+  }
+  function ytUrl(v,id){
+    var q="rel=0&modestbranding=1&hl="+lang; if(v.start) q+="&start="+(+v.start|0); if(v.end) q+="&end="+(+v.end|0);
+    return "https://www.youtube-nocookie.com/embed/"+encodeURIComponent(id)+"?"+q;
+  }
+  function realId(id){return id && !/^REPLACE/i.test(id)}
+  function store(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+  function load(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+
+  /* ---------- block renderers ---------- */
+  function video(v,caption){
+    var id=t(v.id), title=t(v.title)||"Video", ytLink="https://www.youtube.com/watch?v="+encodeURIComponent(id)+(v.start?"&t="+(+v.start|0)+"s":"");
+    var inner, below="";
+    if(!realId(id)){
+      inner='<div class="ph"><div style="font-size:40px">▶</div><div><b>'+esc(title)+'</b></div><div style="font-size:14px;opacity:.85">'+esc(ui("videoMissing"))+'</div><a href="'+esc((DATA.meta||{}).channelUrl||"#")+'" target="_blank" rel="noopener">'+esc(ui("browseChannel"))+'</a></div>';
+    } else if(location.protocol==="file:"){
+      // YouTube refuses embeds without an HTTP referrer (error 153), so link out instead
+      inner='<a class="ph" href="'+esc(ytLink)+'" target="_blank" rel="noopener" style="background:#000 url(https://i.ytimg.com/vi/'+encodeURIComponent(id)+'/hqdefault.jpg) center/cover;text-decoration:none"><span style="font-size:54px;background:rgba(0,0,0,.55);border-radius:50%;width:80px;height:80px;display:flex;align-items:center;justify-content:center;color:#fff">▶</span></a>';
+    } else {
+      inner='<iframe src="'+ytUrl(v,id)+'" title="'+esc(title)+'" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>';
+    }
+    if(realId(id)) below='<a href="'+esc(ytLink)+'" target="_blank" rel="noopener" style="font-size:14px;color:var(--blue);font-weight:600">'+esc(ui("watchYouTube"))+'</a>';
+    return '<figure><div class="video">'+inner+'</div>'+(caption?'<figcaption>'+fmt(caption)+'</figcaption>':'')+(below?'<div style="margin-top:6px">'+below+'</div>':'')+'</figure>';
+  }
+  function image(b){
+    var spots=b.hotspots||[], sid=-1;
+    if(spots.length){ sid=hsStore.length; hsStore.push(spots); }
+    var hs=spots.map(function(h,i){
+      return '<button class="hs" data-i="'+i+'" style="left:'+(+h.x)+'%;top:'+(+h.y)+'%" aria-label="'+esc(t(h.label))+'">'+esc(h.n!=null?h.n:(i+1))+'</button>';
+    }).join("");
+    return '<figure class="imgblock" data-hs="'+sid+'"><div class="figwrap'+(b.narrow?' narrow':'')+'"><img src="'+esc(t(b.src))+'" alt="'+esc(t(b.alt))+'" loading="lazy">'+hs+'</div>'
+      +(spots.length?'<div class="hsinfo" aria-live="polite">'+esc(ui("tapDots"))+'</div>':'')
+      +(b.caption?'<figcaption>'+fmt(b.caption)+'</figcaption>':'')+'</figure>';
+  }
+  function steps(b){
+    return '<div class="card">'+(b.title?'<h3>'+esc(t(b.title))+'</h3>':'')+'<ol class="steps">'+b.items.map(function(s,i){
+      return '<li><label class="step-head"><input type="checkbox" aria-label="'+esc(ui("markDone"))+'"><span class="st">'+esc(t(s.title))+'</span></label>'
+        +(s.text?'<p style="margin:6px 0">'+fmt(s.text)+'</p>':'')
+        +(s.warning?'<div class="callout warning"><span class="ci">⚠️</span><div>'+fmt(s.warning)+'</div></div>':'')
+        +(s.image?image({src:s.image,alt:s.title,narrow:true}):'')
+        +(s.video?video(s.video):'')
+        +'</li>';
+    }).join("")+'</ol></div>';
+  }
+  var blockRenderers={
+    paragraph:function(b){return '<p>'+fmt(b.text)+'</p>'},
+    image:image,
+    video:function(b){return video(b,b.caption)},
+    callout:function(b){var ic={warning:"⚠️",info:"ℹ️",tip:"💡"}[b.kind]||"ℹ️";return '<div class="callout '+esc(b.kind||"info")+'"><span class="ci">'+ic+'</span><div>'+fmt(b.text)+'</div></div>'},
+    devnote:function(b){ return dev? '<div class="devnote"><b>Design note</b>'+fmt(b.text)+'</div>' : ''; },
+    checklist:function(b){
+      return '<div class="card"><h3>'+esc(t(b.title)||ui("beforeYouStart"))+(b.time?'<span class="time">⏱ '+esc(t(b.time))+'</span>':'')+'</h3><ul class="check">'
+        +b.items.map(function(x){return '<li><label style="display:flex;gap:12px;cursor:pointer"><input type="checkbox"><span>'+fmt(x)+'</span></label></li>'}).join("")+'</ul></div>';
+    },
+    steps:steps,
+    manual:function(b){
+      return '<div class="card manual"><div class="label">'+esc(ui("fromManual"))+(b.page?' · '+esc(t(b.page)):'')+'</div>'
+        +(b.title?'<div style="font-weight:700;color:var(--blue-dark);margin-top:4px">'+esc(t(b.title))+'</div>':'')
+        +'<blockquote>'+fmt(b.text)+'</blockquote>'+(b.link?'<a href="'+esc(t(b.link))+'" target="_blank" rel="noopener">'+esc(ui("openManual"))+'</a>':'')+'</div>';
+    },
+    repair:function(b){
+      return '<div class="card repair"><h3>♻ '+esc(ui("builtToRepair"))+'</h3><div>'+fmt(b.text)+'</div>'
+        +(b.parts&&b.parts.length?'<div class="chips">'+b.parts.map(function(p){return '<span class="chip">'+esc(t(p))+'</span>'}).join("")+'</div>':'')+'</div>';
+    },
+    snippet:function(b){
+      var s=(DATA.snippets||{})[b.id]; if(!s) return '<div class="callout warning">Unknown snippet “'+esc(b.id)+'”</div>';
+      return [].concat(s).map(renderBlock).join("");
+    }
+  };
+  function renderBlock(b){ var r=blockRenderers[b.type]; return r? r(b) : '<div class="callout warning">Unknown block type “'+esc(b.type)+'”</div>'; }
+
+  /* ---------- node rendering ---------- */
+  function outcomeBadge(key){
+    var o=(DATA.outcomes||{})[key]; if(!o) return "";
+    return '<div class="badge '+esc(key)+'"><span>'+esc(o.icon)+'</span>'+esc(t(o.label))+(o.desc?' <span class="d">· '+esc(t(o.desc))+'</span>':'')+'</div>';
+  }
+  function crumbs(){
+    if(trail.length<2) return "";
+    return '<div class="crumbs">'+trail.slice(0,-1).map(function(id,i){
+      var n=DATA.nodes[id]; return '<a data-jump="'+i+'">'+esc(t(n&&n.title)||id)+'</a><span>›</span>';
+    }).join("")+'<span>'+esc(t((DATA.nodes[trail[trail.length-1]]||{}).title))+'</span></div>';
+  }
+  function options(opts){
+    if(!opts||!opts.length) return "";
+    var last=null, out='<div class="options">';
+    opts.forEach(function(o){
+      var g=t(o.group);
+      if(g && g!==last){ out+='</div><h2 class="group">'+esc(g)+'</h2><div class="options" style="margin-top:10px">'; last=g; }
+      out+='<button class="opt '+esc(o.style||"")+'" data-next="'+esc(o.next)+'">'
+        +(o.icon?'<span class="ic">'+esc(o.icon)+'</span>':'')
+        +'<span><b>'+esc(t(o.label))+'</b>'+(o.hint?'<small>'+esc(t(o.hint))+'</small>':'')+'</span><span class="chev">›</span></button>';
+    });
+    return out+'</div>';
+  }
+  function searchBox(){
+    return '<input class="search" id="q" type="search" placeholder="🔎 '+esc(ui("search"))+'" aria-label="Search"><div class="results" id="results"></div>';
+  }
+  function chrome(){
+    var m=DATA.meta||{};
+    document.documentElement.lang=lang;
+    document.getElementById("brand-title").textContent=t(m.title)||"Care Guide";
+    document.getElementById("brand-sub").textContent=t(m.instrument)||"";
+    backBtn.setAttribute("aria-label",ui("back")); backBtn.title=ui("back");
+    homeBtn.setAttribute("aria-label",ui("startOver")); homeBtn.title=ui("startOver");
+    var langs=m.languages||["en"];
+    langBox.hidden=langs.length<2;
+    langBox.innerHTML=langs.map(function(l){return '<button data-lang="'+esc(l)+'" aria-pressed="'+(l===lang)+'">'+esc(l.toUpperCase())+'</button>';}).join("");
+    document.getElementById("foot").innerHTML=
+      '<p>'+esc(ui("contentVersion"))+': '+esc(m.version||"–")+' · '+esc(ui("unofficial"))+'</p>'
+      +'<p><label><input type="checkbox" id="devtoggle"'+(dev?' checked':'')+'> '+esc(ui("showNotes"))+'</label></p>';
+  }
+  function render(){
+    hsStore=[];
+    chrome();
+    var id=trail[trail.length-1], n=DATA.nodes[id];
+    if(!n){ app.innerHTML='<div class="empty"><h1>'+esc(ui("notFound"))+'</h1><p><code>'+esc(id)+'</code></p></div>'; return; }
+    var isStart = id===DATA.meta.start;
+    var html='';
+    if(isStart && DATA.meta.disclaimer) html+='<div class="demo-banner">'+fmt(DATA.meta.disclaimer)+'</div>';
+    html+=crumbs();
+    if(n.outcome) html+=outcomeBadge(n.outcome);
+    html+='<h1>'+esc(t(n.title))+'</h1>';
+    var lead = n.text || (isStart && DATA.meta.subtitle);
+    if(lead) html+='<p class="lead">'+fmt(lead)+'</p>';
+    if(isStart) html+=searchBox();
+    (n.blocks||[]).forEach(function(b){ html+=renderBlock(b); });
+    html+=options(n.options);
+    app.innerHTML=html;
+    backBtn.hidden = trail.length<2; homeBtn.hidden = isStart;
+    updateProgress();
+    document.title=t(n.title)+" · "+(t(DATA.meta.title)||"Care Guide");
+  }
+  function updateProgress(){
+    var all=app.querySelectorAll('ol.steps input'), done=app.querySelectorAll('ol.steps li.done');
+    document.getElementById("prog").style.width = all.length ? (100*done.length/all.length)+"%" : (trail.length>1? Math.min(90,trail.length*18)+"%":"0");
+  }
+
+  /* ---------- navigation ---------- */
+  function go(id){
+    if(trail[trail.length-1]===id) return;
+    var idx=trail.indexOf(id);
+    if(idx>=0) trail=trail.slice(0,idx+1); else trail.push(id);
+    location.hash = id===DATA.meta.start? "" : id;
+    render(); window.scrollTo(0,0);
+  }
+  function fromHash(){
+    var id=decodeURIComponent(location.hash.slice(1))||DATA.meta.start;
+    if(trail[trail.length-1]===id) return;
+    var idx=trail.indexOf(id);
+    if(idx>=0) trail=trail.slice(0,idx+1);
+    else if(id===DATA.meta.start) trail=[id];
+    else if(!trail.length) trail=[DATA.meta.start,id];
+    else trail.push(id);
+    render(); window.scrollTo(0,0);
+  }
+  function setLang(l){
+    lang=l; store("lang",l);
+    var u=new URL(location.href); u.searchParams.set("lang",l); history.replaceState(null,"",u);
+    var q=document.getElementById("q"); var qv=q&&q.value;
+    render(); if(qv){ var q2=document.getElementById("q"); if(q2){q2.value=qv; q2.dispatchEvent(new Event("input",{bubbles:true}));} }
+  }
+  window.addEventListener("hashchange",function(){ if(DATA) fromHash(); });
+  backBtn.onclick=function(){ if(trail.length>1) go(trail[trail.length-2]); };
+  homeBtn.onclick=function(){ trail=[DATA.meta.start]; location.hash=""; render(); window.scrollTo(0,0); };
+  langBox.addEventListener("click",function(e){ var b=e.target.closest("[data-lang]"); if(b) setLang(b.dataset.lang); });
+  document.getElementById("foot").addEventListener("change",function(e){
+    if(e.target.id==="devtoggle"){ dev=e.target.checked; render(); }
+  });
+
+  app.addEventListener("click",function(e){
+    var tn=e.target.closest("[data-next]"); if(tn){ go(tn.dataset.next); return; }
+    var j=e.target.closest("[data-jump]"); if(j){ go(trail[+j.dataset.jump]); return; }
+    var hs=e.target.closest(".hs");
+    if(hs){
+      var fig=hs.closest(".imgblock"), info=fig.querySelector(".hsinfo");
+      var spots=hsStore[+fig.dataset.hs], h=spots&&spots[+hs.dataset.i];
+      fig.querySelectorAll(".hs").forEach(function(x){x.classList.remove("on")}); hs.classList.add("on");
+      if(h&&info) info.innerHTML="<b>"+esc(h.n!=null?h.n+". ":"")+esc(t(h.label))+"</b>"+(h.text?" — "+fmt(h.text):"");
+    }
+  });
+  app.addEventListener("change",function(e){
+    if(e.target.matches("ol.steps input")){ e.target.closest("li").classList.toggle("done",e.target.checked); updateProgress(); }
+  });
+  app.addEventListener("input",function(e){
+    if(e.target.id!=="q") return;
+    var q=e.target.value.trim().toLowerCase(), box=document.getElementById("results");
+    if(!q){ box.innerHTML=""; return; }
+    var hits=Object.keys(DATA.nodes).filter(function(id){
+      if(id===DATA.meta.start) return false; var n=DATA.nodes[id];
+      return (t(n.title)+" "+t(n.text)+" "+t(n.keywords)+" "+id).toLowerCase().indexOf(q)>=0;
+    }).slice(0,6);
+    box.innerHTML = hits.length? '<div class="options">'+hits.map(function(id){
+      var n=DATA.nodes[id], o=(DATA.outcomes||{})[n.outcome];
+      return '<button class="opt" data-next="'+esc(id)+'"><span><b>'+esc(t(n.title))+'</b><small>'+(o?esc(o.icon+" "+t(o.label)):esc(ui("question")))+'</small></span><span class="chev">›</span></button>';
+    }).join("")+'</div>' : '<p class="lead">'+esc(ui("noMatch"))+'</p>';
+  });
+
+  /* ---------- loading ---------- */
+  function start(data){
+    DATA=data; var m=data.meta||{}, langs=m.languages||["en"];
+    var want=params.get("lang")||load("lang")||(navigator.language||"en").slice(0,2).toLowerCase();
+    lang = langs.indexOf(want)>=0 ? want : langs[0];
+    trail=[]; fromHash(); if(!trail.length){trail=[m.start]; render();}
+  }
+  function showLoader(reason){
+    app.innerHTML='<div class="drop"><h1>Load content.json</h1>'
+      +'<p class="lead">Could not fetch <code>content.json</code> ('+esc(reason)+'). Browsers block this when a page is opened directly from disk. Either choose the file here, or run <code>python3 -m http.server</code> in this folder and open <code>http://localhost:8000</code>.</p>'
+      +'<input type="file" id="file" accept=".json,application/json"></div>';
+    document.getElementById("file").onchange=function(ev){
+      var f=ev.target.files[0]; if(!f) return;
+      var r=new FileReader(); r.onload=function(){ try{ start(JSON.parse(r.result)); }catch(err){ alert("Invalid JSON: "+err.message); } }; r.readAsText(f);
+    };
+  }
+  var src=params.get("json")||"content.json";
+  fetch(src,{cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(start).catch(function(e){ showLoader(e.message); });
+})();
+</script>
+</body>
+</html>
